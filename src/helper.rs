@@ -1,33 +1,5 @@
-use image::{ImageBuffer, Rgba, imageops::overlay};
-use serde::Deserialize;
-use std::collections::HashMap;
+use image::{DynamicImage, ImageBuffer, Rgba, imageops::overlay};
 use std::path::{Path, PathBuf};
-
-#[derive(Deserialize)]
-pub struct GameFolders {
-    #[serde(rename = "Actions")]
-    pub actions: HashMap<String, Vec<String>>,
-    #[serde(rename = "CharPortraits")]
-    pub character_portraits: HashMap<String, Vec<String>>,
-    #[serde(rename = "Archive")]
-    pub archive: HashMap<String, Vec<String>>,
-    #[serde(rename = "Favors")]
-    pub offerings: HashMap<String, Vec<String>>,
-    #[serde(rename = "HelpLoading")]
-    pub loading_screen: HashMap<String, Vec<String>>,
-    #[serde(rename = "ItemAddons")]
-    pub addons: HashMap<String, Vec<String>>,
-    #[serde(rename = "Items")]
-    pub items: HashMap<String, Vec<String>>,
-    #[serde(rename = "Perks")]
-    pub perks: HashMap<String, Vec<String>>,
-    #[serde(rename = "Powers")]
-    pub powers: HashMap<String, Vec<String>>,
-    #[serde(rename = "StatusEffects")]
-    pub status_effects: HashMap<String, Vec<String>>,
-    #[serde(rename = "Emblems")]
-    pub emblems: HashMap<String, Vec<String>>,
-}
 
 /// Convert a hex string like "#RRGGBB" or "RRGGBB" into (r, g, b)
 pub fn hex_to_rgb(hex: &str) -> Result<(u8, u8, u8), String> {
@@ -74,24 +46,10 @@ pub fn force_png_path(base: &Path, name: &str) -> PathBuf {
     base.join(format!("{}.png", name))
 }
 
-// Apply layers
-pub fn stack_layers(
-    input_image: &mut image::DynamicImage,
-    element_type: &str,
-    layers: &Vec<String>,
-) {
-    let background_folder_mapping: HashMap<&str, &str> = HashMap::from([
-        ("items", "addons_items_powers"),
-        ("addons", "addons_items_powers"),
-        ("powers", "addons_items_powers"),
-        ("offerings", "offerings"),
-        ("perks", "perks"),
-    ]);
-
-    let layer_location = background_folder_mapping.get(element_type);
-
+/// Apply layers using the provided layer folder
+pub fn stack_layers(input_image: &mut DynamicImage, layer_folder: &Path, layers: &Vec<String>) {
     for layer_name in layers {
-        // If there is no layer simply skip the processing step
+        // Skip empty or "none"
         if layer_name.is_empty() || layer_name == "none" {
             continue;
         }
@@ -101,25 +59,23 @@ pub fn stack_layers(
         let base_name = parts.next().unwrap();
         let hex_color = parts.next();
 
-        // If the image has a layer associated, get its path and normalize it
-        if let Some(layer_folder) = layer_location {
-            let layer_img_path = force_png_path(&Path::new("Layers").join(layer_folder), base_name);
+        // Build the full path to the layer image
+        let layer_img_path = force_png_path(layer_folder, base_name);
 
-            // If the layer could be opened
-            if let Ok(layer_img) = image::open(&layer_img_path) {
-                let mut processed_img = layer_img.clone();
+        // If the layer image can be opened
+        if let Ok(layer_img) = image::open(&layer_img_path) {
+            let mut processed_img = layer_img.clone();
 
-                // If the color could be determined
-                if let Some(hex) = hex_color {
-                    let gray_img = layer_img.to_luma_alpha8();
-                    if let Ok(colored) = colorize_grayscale_image(&gray_img, hex) {
-                        processed_img = image::DynamicImage::ImageRgba8(colored);
-                    }
+            // If HEX color is specified, recolor grayscale layer
+            if let Some(hex) = hex_color {
+                let gray_img = layer_img.to_luma_alpha8();
+                if let Ok(colored) = colorize_grayscale_image(&gray_img, hex) {
+                    processed_img = DynamicImage::ImageRgba8(colored);
                 }
-
-                // Stack the layer
-                overlay(input_image, &processed_img, 0, 0);
             }
+
+            // Overlay the layer on top of the input image
+            overlay(input_image, &processed_img, 0, 0);
         }
     }
 }

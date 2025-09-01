@@ -532,6 +532,8 @@
 
     "iconFavors_creamChalkPouch": ["uncommon"],
 
+    "iconFavors_crecentMoonBouquet": [""],
+
     "iconFavors_crispleafAmaranthSachet": ["common"],
 
     "iconFavors_cutCoin": ["very_rare"],
@@ -562,6 +564,8 @@
 
     "iconFavors_freshSweetWilliam": ["uncommon"],
 
+    "iconFavors_fullMoonBouquet": [""],
+
     "iconFavors_hazyReagent": ["uncommon"],
 
     "iconFavors_heartLocket": ["none"],
@@ -584,11 +588,15 @@
 
     "iconFavors_murkyReagent": ["very_rare"],
 
+    "iconFavors_newMoonBouquet": [""],
+
     "iconFavors_petrifiedOak": ["very_rare"],
 
     "iconFavors_primroseBlossomSachet": ["common"],
 
     "iconFavors_putridOak": ["very_rare"],
+
+    "iconFavors_quarterMoonBouquet": [""],
 
     "iconFavors_ravenWreath": ["common"],
 
@@ -642,7 +650,6 @@
 
     "Summer/iconFavors_bbqInvitation": ["event"],
 
-    "Ukraine/iconFavors_dustyNoose": ["none"],
     "Ukraine/iconFavors_ShatteredBottle": ["none"],
 
     "Umbra/iconFavors_alienFlora": ["none"],
@@ -2146,18 +2153,18 @@
 
     "iconItems_toolboxWornOut": ["common"],
 
-    "Limited/iconItems_flashbangGrenade": ["limited"],
-    "Limited/iconItems_Keycard": ["limited"],
+    "Limited/iconItems_flashbangGrenade": ["limited","template#3200a6","limited_bezel_template#2d26ff"],
+    "Limited/iconItems_Keycard": ["limited","template#3200a6","limited_bezel_template#4d6666"],
     "Limited/iconItems_LimitedEMP": ["limited"],
-    "Limited/iconItems_LimitedFragileMirror": ["limited"],
-    "Limited/iconItems_LimitedItemVaccine": ["limited"],
-    "Limited/iconItems_LimitedLamentConfiguration": ["limited"],
-    "Limited/iconItems_LimitedRepairedMirror": ["limited"],
+    "Limited/iconItems_LimitedFragileMirror": ["limited","template","limited_bezel_template"],
+    "Limited/iconItems_LimitedItemVaccine": ["limited","template#009900","limited_bezel_template#00BB00"],
+    "Limited/iconItems_LimitedLamentConfiguration": ["limited","template#AAAA00","limited_bezel_template#FFFF00"],
+    "Limited/iconItems_LimitedRepairedMirror": ["limited","template#0d8f87","limited_bezel_template#10eddf"],
     "Limited/iconItems_LimitedStabilizingSpray": ["limited"],
-    "Limited/iconItems_LimitedTurret": ["limited"],
-    "Limited/iconItems_LimitedVecnaEye": ["limited"],
-    "Limited/iconItems_LimitedVecnaHand": ["limited"],
-    "Limited/iconItems_LimitedVhsTape": ["limited"],
+    "Limited/iconItems_LimitedTurret": ["limited","template#6a0000","limited_bezel_template#de0000"],
+    "Limited/iconItems_LimitedVecnaEye": ["limited","template#75003d","limited_bezel_template#bb0061"],
+    "Limited/iconItems_LimitedVecnaHand": ["limited","template#75003d","limited_bezel_template#bb0061"],
+    "Limited/iconItems_LimitedVhsTape": ["limited","template#00AAAA","limited_bezel_template"],
 
     "LunarEvent/iconItems_toolboxLunar": ["event"],
 
@@ -2481,7 +2488,9 @@
 
     "Ketchup/T_UI_iconPerks_Haywire": ["rare"],
     "Ketchup/T_UI_iconPerks_HelpWanted": ["rare"],
+    "Ketchup/T_UI_iconPerks_NoHoldsBarred": ["very_rare"],
     "Ketchup/T_UI_iconPerks_PhantomFear": ["iridescent","entity_claws"],
+    "Ketchup/T_UI_iconPerks_WeepingWounds": ["iridescent","entity_claws"],
 
     "L4D/iconPerks_BorrowedTime": ["very_rare"],
     "L4D/iconPerks_LeftBehind": ["rare"],
@@ -2528,10 +2537,14 @@
     "Qatar/iconPerks_Camaraderie": ["iridescent","entity_claws"],
     "Qatar/iconPerks_CruelConfinement": ["very_rare"],
     "Qatar/iconPerks_Fixated": ["very_rare"],
+    "Qatar/iconPerks_guardian": [""],
     "Qatar/iconPerks_innerStrength": ["very_rare"],
     "Qatar/iconPerks_MindBreaker": ["iridescent","entity_claws"],
+    "Qatar/iconPerks_pushThroughIt": [""],
     "Qatar/iconPerks_secondWind": ["very_rare"],
+    "Qatar/iconPerks_situationalAwareness": [""],
     "Qatar/iconPerks_Surge": ["very_rare"],
+    "Qatar/iconPerks_survivalInstincts": [""],
 
     "Quantum/iconPerks_Fogwise": ["very_rare"],
     "Quantum/iconPerks_HexFaceTheDarkness": ["iridescent","entity_claws"],
@@ -2639,7 +2652,7 @@
 
     "DLC3/iconPowers_blackenedCatalyst": ["very_rare"],
 
-    "DLC4/iconPowers_cartersSpark": ["very_rare", "power_bezel_template#00FFFF"],
+    "DLC4/iconPowers_cartersSpark": ["very_rare","power_bezel_template#00FFFF"],
 
     "DLC5/iconPowers_huntingHatchets": ["very_rare"],
 
@@ -2653,10 +2666,10 @@
     "Eclair/iconPowers_K37_WolfForm": ["very_rare"],
     "Eclair/iconPowers_K37_WolfPounce": ["very_rare"],
 
-    "Eclipse/iconPowers_T-virus": ["very_rare", "power_bezel_template#0000FF"],
-    "Eclipse/iconPowers_T-virus1": ["very_rare", "power_bezel_template#0000FF"],
-    "Eclipse/iconPowers_T-virus2": ["very_rare", "power_bezel_template#0000FF"],
-    "Eclipse/iconPowers_T-virus3": ["very_rare", "power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus": ["very_rare","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus1": ["very_rare","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus2": ["very_rare","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus3": ["very_rare","power_bezel_template#0000FF"],
 
     "England/iconPowers_dreamMaster": ["very_rare"],
     "England/T_UI_iconPowers_BloodyPallet": ["very_rare"],
