@@ -2,6 +2,7 @@
 """
 This script scans the SourcePack folder, generates/updates `elements_layering.json`,
 and prints changes (green for additions, red for deletions). Subfolder paths are preserved.
+This code was written in Python 3.13.7
 """
 
 import json
