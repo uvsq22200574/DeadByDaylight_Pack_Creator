@@ -97,16 +97,6 @@ for TARGET in "${TARGETS[@]}"; do
     fi
 done
 
-# Strip binaries (optional)
-echo "🛠 Stripping binaries..."
-for BIN in ${PROJECT_NAME}-${PROJECT_VERSION}-*; do
-    if [[ "$BIN" == *.exe ]]; then
-        x86_64-w64-mingw32-strip "$BIN" || true
-    else
-        strip "$BIN" || true
-    fi
-done
-
 # Remove target folder if requested (independent of -clear)
 if [ "$REMOVE_TARGET" = true ]; then
     echo "🗑 Removing target folder..."
