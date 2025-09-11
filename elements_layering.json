@@ -272,6 +272,9 @@
     "Mali/MS_charSelect_portrait": ["none"],
     "Mali/S16_JaneRomero_Portrait": ["none"],
 
+    "Maple/T_UI_K41_TheKrasue_Portrait": ["none"],
+    "Maple/T_UI_S49_VeeBoonyasak_Portrait": ["none"],
+
     "Meteor/K28_charSelect_portrait": ["none"],
     "Meteor/K28_TheDredge_Portrait": ["none"],
     "Meteor/S31_charSelect_portrait": ["none"],
@@ -1773,7 +1776,7 @@
     "Ketchup/T_UI_iconAddon_Streamers": ["uncommon"],
 
     "Lasagna/T_UI_iconAddon_BatteredTape": ["rare"],
-    "Lasagna/T_UI_iconAddon_BraidedBauble": ["very_rare"],
+    "Lasagna/T_UI_iconAddon_BraidedBauble": ["rare"],
     "Lasagna/T_UI_iconAddon_CrimsonStamp": ["iridescent"],
     "Lasagna/T_UI_iconAddon_GlowingInk": ["common"],
     "Lasagna/T_UI_iconAddon_GnarledCompass": ["uncommon"],
@@ -2510,6 +2513,13 @@
     "Mali/iconPerks_Poised": ["very_rare"],
     "Mali/iconPerks_Solidarity": ["iridescent","entity_claws"],
 
+    "Maple/T_UI_iconPerks_GhostNotes": ["very_rare"],
+    "Maple/T_UI_iconPerks_HexOvertureOfDoom": ["very_rare"],
+    "Maple/T_UI_iconPerks_OneTwoThreeFour": ["rare"],
+    "Maple/T_UI_iconPerks_Ravenous": ["very_rare"],
+    "Maple/T_UI_iconPerks_RoadLife": ["rare"],
+    "Maple/T_UI_iconPerks_WanderingEye": ["rare"],
+
     "Meteor/iconPerks_BoonDestroyer": ["rare"],
     "Meteor/iconPerks_DarknessRevelated": ["very_rare"],
     "Meteor/iconPerks_Dissolution": ["rare"],
@@ -2723,6 +2733,11 @@
     "Ketchup/iconPowers_ThrowAxe_K40": ["very_rare"],
 
     "Mali/iconPowers_vilePurge": ["very_rare"],
+
+    "Maple/T_UI_iconPowers_GoLow_K41": ["very_rare"],
+    "Maple/T_UI_iconPowers_HeadForm_K41": ["very_rare"],
+    "Maple/T_UI_iconPowers_HumanForm_K41": ["very_rare"],
+    "Maple/T_UI_iconPowers_Projectile_K41": ["very_rare"],
 
     "Meteor/T_iconPowers_ReignofDarkness": ["very_rare"],
 
