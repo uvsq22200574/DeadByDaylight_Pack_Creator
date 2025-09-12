@@ -487,6 +487,8 @@
     "Anniversary/iconsFavors_8thAnniversary": ["anniversary"],
     "Anniversary/T_UI_iconsFavors_9thAnniversary": ["anniversary"],
 
+    "Cannibal/iconFavors_boneSplinter": ["very_rare"],
+
     "DLC2/iconFavors_strodeRealtyKey": ["none"],
 
     "DLC3/iconFavors_granmasCookbook": ["none"],
@@ -499,6 +501,7 @@
 
     "England/iconFavors_thePiedPiper": ["none"],
 
+    "Finland/iconFavors_glassSplinter": ["very_rare"],
     "Finland/iconFavors_jigsawPiece": ["none"],
 
     "Gelato/iconsFavors_Winter": ["none"],
@@ -927,6 +930,8 @@
     "Kepler/T_UI_iconHelpLoading_K27": ["none"],
 
     "Ketchup/T_UI_iconHelpLoading_K40": ["none"],
+
+    "Maple/T_UI_iconHelpLoading_K41": ["none"],
 
     "Meteor/iconHelpLoading_ReignOfDarkness": ["none"],
     "Meteor/T_UI_iconHelpLoading_K28": ["none"],
@@ -1721,7 +1726,7 @@
     "Kenya/iconAddon_fumingMixtape": ["iridescent"],
     "Kenya/iconAddon_iridescentButton": ["iridescent"],
     "Kenya/iconAddon_joeysMixtape": ["rare"],
-    "Kenya/iconAddon_juliesMixtape": ["rare"],
+    "Kenya/iconAddon_juliesMixtape": ["uncommon"],
     "Kenya/iconAddon_mischiefList": ["common"],
     "Kenya/iconAddon_muralSketch": ["uncommon"],
     "Kenya/iconAddon_nastyBlade": ["rare"],
@@ -1730,7 +1735,7 @@
     "Kenya/iconAddon_smileyFaceButton": ["common"],
     "Kenya/iconAddon_stabWoundsStudy": ["very_rare"],
     "Kenya/iconAddon_stolenSketchbook": ["rare"],
-    "Kenya/iconAddon_suziesMixtape": ["uncommon"],
+    "Kenya/iconAddon_suziesMixtape": ["rare"],
     "Kenya/iconAddon_theLegionButton": ["rare"],
 
     "Kepler/iconAddon_BloodyFingernail": ["rare"],
