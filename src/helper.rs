@@ -47,7 +47,14 @@ pub fn force_png_path(base: &Path, name: &str) -> PathBuf {
 }
 
 /// Apply layers using the provided layer folder
-pub fn stack_layers(input_image: &mut DynamicImage, layer_folder: &Path, layers: &Vec<String>) {
+/// Returns a list of missing layer file paths.
+pub fn stack_layers(
+    input_image: &mut DynamicImage,
+    layer_folder: &Path,
+    layers: &Vec<String>,
+) -> Vec<String> {
+    let mut missing_layers = Vec::new();
+
     for layer_name in layers {
         // Skip empty or "none"
         if layer_name.is_empty() || layer_name == "none" {
@@ -62,20 +69,28 @@ pub fn stack_layers(input_image: &mut DynamicImage, layer_folder: &Path, layers:
         // Build the full path to the layer image
         let layer_img_path = force_png_path(layer_folder, base_name);
 
-        // If the layer image can be opened
-        if let Ok(layer_img) = image::open(&layer_img_path) {
-            let mut processed_img = layer_img.clone();
+        // Try opening the layer image
+        match image::open(&layer_img_path) {
+            Ok(layer_img) => {
+                let mut processed_img = layer_img.clone();
 
-            // If HEX color is specified, recolor grayscale layer
-            if let Some(hex) = hex_color {
-                let gray_img = layer_img.to_luma_alpha8();
-                if let Ok(colored) = colorize_grayscale_image(&gray_img, hex) {
-                    processed_img = DynamicImage::ImageRgba8(colored);
+                // Recolor grayscale layer if HEX specified
+                if let Some(hex) = hex_color {
+                    let gray_img = layer_img.to_luma_alpha8();
+                    if let Ok(colored) = colorize_grayscale_image(&gray_img, hex) {
+                        processed_img = DynamicImage::ImageRgba8(colored);
+                    }
                 }
-            }
 
-            // Overlay the layer on top of the input image
-            overlay(input_image, &processed_img, 0, 0);
+                // Overlay the layer on top of the input image
+                overlay(input_image, &processed_img, 0, 0);
+            }
+            Err(_) => {
+                // Accumulate missing layer paths instead of printing
+                missing_layers.push(layer_img_path.display().to_string());
+            }
         }
     }
+
+    missing_layers
 }

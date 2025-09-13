@@ -487,7 +487,7 @@
     "Anniversary/iconsFavors_8thAnniversary": ["anniversary"],
     "Anniversary/T_UI_iconsFavors_9thAnniversary": ["anniversary"],
 
-    "Cannibal/iconFavors_boneSplinter": ["very_rare"],
+    "Cannibal/iconFavors_boneSplinter": ["iridescent"],
 
     "DLC2/iconFavors_strodeRealtyKey": ["none"],
 
@@ -504,7 +504,7 @@
     "Finland/iconFavors_glassSplinter": ["very_rare"],
     "Finland/iconFavors_jigsawPiece": ["none"],
 
-    "Gelato/iconsFavors_Winter": ["none"],
+    "Gelato/iconsFavors_Winter": ["event"],
 
     "Haiti/iconFavors_yamaokasCrest": ["none"],
 
@@ -2112,12 +2112,8 @@
 
   "Items": {
     "Anniversary/iconItems_flashlight_anniversary2020": ["anniversary"],
-    "Anniversary/iconItems_flashlight_anniversary2022": ["anniversary"],
-    "Anniversary/iconItems_medkit_anniversary2020": ["anniversary"],
-    "Anniversary/iconItems_medkit_anniversary2022": ["anniversary"],
-    "Anniversary/iconItems_partyPopper": ["anniversary"],
-    "Anniversary/iconItems_toolbox_anniversary2021": ["anniversary"],
-    "Anniversary/iconItems_toolbox_anniversary2022": ["anniversary"],
+    "Anniversary/iconItems_medkit_anniversary2020": ["none"],
+    "Anniversary/iconItems_partyPopper": ["event"],
 
     "Halloween/iconItems_flashlightHalloween": ["halloween"],
     "Halloween/iconItems_medkitHalloween": ["halloween"],
@@ -2161,18 +2157,18 @@
 
     "iconItems_toolboxWornOut": ["common"],
 
-    "Limited/iconItems_flashbangGrenade": ["limited","template#3200a6","limited_bezel_template#2d26ff"],
-    "Limited/iconItems_Keycard": ["limited","template#3200a6","limited_bezel_template#4d6666"],
-    "Limited/iconItems_LimitedEMP": ["limited"],
-    "Limited/iconItems_LimitedFragileMirror": ["limited","template","limited_bezel_template"],
-    "Limited/iconItems_LimitedItemVaccine": ["limited","template#009900","limited_bezel_template#00BB00"],
-    "Limited/iconItems_LimitedLamentConfiguration": ["limited","template#AAAA00","limited_bezel_template#FFFF00"],
-    "Limited/iconItems_LimitedRepairedMirror": ["limited","template#0d8f87","limited_bezel_template#10eddf"],
-    "Limited/iconItems_LimitedStabilizingSpray": ["limited"],
-    "Limited/iconItems_LimitedTurret": ["limited","template#6a0000","limited_bezel_template#de0000"],
-    "Limited/iconItems_LimitedVecnaEye": ["limited","template#75003d","limited_bezel_template#bb0061"],
-    "Limited/iconItems_LimitedVecnaHand": ["limited","template#75003d","limited_bezel_template#bb0061"],
-    "Limited/iconItems_LimitedVhsTape": ["limited","template#00AAAA","limited_bezel_template"],
+    "Limited/iconItems_flashbangGrenade": ["template#3200a6","limited_bezel_template#2d26ff"],
+    "Limited/iconItems_Keycard": ["template#42B9FF","limited_bezel_template#FFA859"],
+    "Limited/iconItems_LimitedEMP": ["template#61BCFF","limited_bezel_template#89FFC7"],
+    "Limited/iconItems_LimitedFragileMirror": ["template","limited_bezel_template"],
+    "Limited/iconItems_LimitedItemVaccine": ["template#009900","limited_bezel_template#00BB00"],
+    "Limited/iconItems_LimitedLamentConfiguration": ["template#AAAA00","limited_bezel_template#FFFF00"],
+    "Limited/iconItems_LimitedRepairedMirror": ["template#0d8f87","limited_bezel_template#10eddf"],
+    "Limited/iconItems_LimitedStabilizingSpray": ["template#BA3FFE","limited_bezel_template#D4A7FF"],
+    "Limited/iconItems_LimitedTurret": ["template#6a0000","limited_bezel_template#de0000"],
+    "Limited/iconItems_LimitedVecnaEye": ["template#75003d","limited_bezel_template#bb0061"],
+    "Limited/iconItems_LimitedVecnaHand": ["template#75003d","limited_bezel_template#bb0061"],
+    "Limited/iconItems_LimitedVhsTape": ["template#00AAAA","limited_bezel_template"],
 
     "LunarEvent/iconItems_toolboxLunar": ["event"],
 
@@ -2190,12 +2186,18 @@
     "Modifier/iconItems_modifierLantern": ["event"],
 
     "Spring/iconItems_bloodMap": ["blood_moon"],
-    "Spring/T_UI_iconItems_LimitedJerryCan": ["event"],
 
     "WinterEvent/iconItems_winterEventFirecracker": ["event"]
   },
 
   "items": {
+    "Anniversary/iconItems_flashlight_anniversary2022": ["anniversary_masquerade"],
+    "Anniversary/iconItems_medkit_anniversary2022": ["anniversary"],
+    "Anniversary/iconItems_toolbox_anniversary2021": ["anniversary"],
+    "Anniversary/iconItems_toolbox_anniversary2022": ["anniversary_masquerade"],
+
+    "Limited/T_UI_iconItems_LimitedMushroom": ["template#1B5E20","limited_bezel_template#4FAE52"],
+
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_Boots": ["none"],
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_Bracers": ["none"],
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_DispellingSphere": ["none"],
@@ -2205,7 +2207,7 @@
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_VecnaEye": ["none"],
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_VecnaHand": ["none"],
 
-    "Spring/T_UI_iconItems_LimitedJerryCan": ["limited"],
+    "Spring/T_UI_iconItems_LimitedJerryCan": ["limited_bezel_template#e1c287"],
 
     "T_UI_iconItems_apprenticesFogVial": ["common"],
 
