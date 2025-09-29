@@ -46,6 +46,30 @@ pub fn force_png_path(base: &Path, name: &str) -> PathBuf {
     base.join(format!("{}.png", name))
 }
 
+pub fn resolve_full_path(path: &Path) -> PathBuf {
+    let mut p = path.to_path_buf();
+
+    // Expand ~ on Unix-like systems
+    #[cfg(unix)]
+    if let Some(path_str) = path.to_str() {
+        if path_str == "~" || path_str.starts_with("~/") {
+            if let Some(home) = dirs::home_dir() {
+                let stripped = path_str.trim_start_matches("~/");
+                p = home.join(stripped);
+            }
+        }
+    }
+
+    // Convert to absolute if it's not already
+    if p.is_absolute() {
+        p
+    } else {
+        std::env::current_dir()
+            .unwrap_or_else(|_| PathBuf::from("."))
+            .join(p)
+    }
+}
+
 /// Apply layers using the provided layer folder
 /// Returns a list of missing layer file paths.
 pub fn stack_layers(

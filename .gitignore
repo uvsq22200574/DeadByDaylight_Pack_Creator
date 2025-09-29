@@ -23,6 +23,7 @@ target
 # Source files
 # You must include those yourself
 SourcePack/*
+Source_Pack/*
 Assets
 Layers/*
 

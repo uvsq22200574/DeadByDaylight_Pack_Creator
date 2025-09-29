@@ -1,17 +1,22 @@
 {
-    "Actions": "",
-    "Archive": "",
-    "CharPortraits": "",
-    "DailyRituals": "",
-    "Emblems": "",
-    "Favors": "Layers/offerings",
-    "HelpLoading": "",
-    "ItemAddons": "Layers/addons_items_powers",
-    "items": "Layers/addons_items_powers",
-    "Items": "Layers/addons_items_powers",
-    "Packs": "",
-    "Perks": "Layers/perks",
-    "Powers": "Layers/addons_items_powers",
-    "StatusEffects": "",
-    "StoreTabs": ""
+    "layers_location": {
+        "Actions": "",
+        "Archive": "",
+        "CharPortraits": "",
+        "DailyRituals": "",
+        "Emblems": "",
+        "Favors": "Layers/offerings",
+        "HelpLoading": "",
+        "ItemAddons": "Layers/addons_items_powers",
+        "items": "Layers/addons_items_powers",
+        "Items": "Layers/addons_items_powers",
+        "Packs": "",
+        "Perks": "Layers/perks",
+        "Powers": "Layers/addons_items_powers",
+        "StatusEffects": "",
+        "StoreTabs": ""
+    },
+    "output_path": "",
+    "input_path": ""
+    
 }
