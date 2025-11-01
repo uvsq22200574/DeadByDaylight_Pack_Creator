@@ -1242,7 +1242,7 @@
     "DLC5/iconAddon_yellowedCloth": ["common"],
 
     "Donut/iconAddon_JailersChimes": ["very_rare"],
-    "Donut/iconAddon_SharpenedMount": ["very_rare"],
+    "Donut/iconAddon_SharpenedMount": ["rare"],
 
     "Eclair/iconAddon_AlucardsShield": ["iridescent"],
     "Eclair/iconAddon_BloodFilledGoblet": ["uncommon"],
@@ -2138,7 +2138,7 @@
 
     "Halloween/iconItems_flashlightHalloween": ["halloween"],
     "Halloween/iconItems_medkitHalloween": ["halloween"],
-    "Halloween/iconItems_voidCrystal": ["event"],
+    "Halloween/iconItems_voidCrystal": ["event", "limited_bezel_template#FFA859"],
 
     "iconItems_brokenKey": ["common"],
 
@@ -2313,7 +2313,7 @@
     "DLC4/iconPerks_Technician": ["rare"],
 
     "DLC5/iconPerks_BeastOfPrey": ["rare"],
-    "DLC5/iconPerks_DeadHard": ["iridescent"],
+    "DLC5/iconPerks_DeadHard": ["iridescent","entity_claws"],
     "DLC5/iconPerks_HuntressLullaby": ["iridescent","entity_claws"],
     "DLC5/iconPerks_NoMither": ["rare"],
     "DLC5/iconPerks_TerritorialImperative": ["rare"],
@@ -2344,7 +2344,7 @@
     "England/iconPerks_FireUp": ["very_rare"],
     "England/iconPerks_Pharmacy": ["rare"],
     "England/iconPerks_RememberMe": ["iridescent","entity_claws"],
-    "England/iconPerks_Vigil": ["iridescent"],
+    "England/iconPerks_Vigil": ["iridescent","entity_claws"],
     "England/iconPerks_WakeUp": ["very_rare"],
 
     "Finland/iconPerks_DetectivesHunch": ["very_rare"],
