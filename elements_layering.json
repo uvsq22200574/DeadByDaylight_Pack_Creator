@@ -2138,7 +2138,7 @@
 
     "Halloween/iconItems_flashlightHalloween": ["halloween"],
     "Halloween/iconItems_medkitHalloween": ["halloween"],
-    "Halloween/iconItems_voidCrystal": ["event", "limited_bezel_template#FFA859"],
+    "Halloween/iconItems_voidCrystal": ["event","limited_bezel_template#FFA859"],
 
     "iconItems_brokenKey": ["common"],
 
@@ -2684,9 +2684,11 @@
     "Comet/iconPowers_Showstopper_02": ["very_rare"],
     "Comet/iconPowers_Showstopper_03": ["very_rare"],
 
-    "DLC2/iconPowers_stalker1": ["very_rare"],
-    "DLC2/iconPowers_stalker2": ["very_rare"],
-    "DLC2/iconPowers_stalker3": ["very_rare"],
+    "DLC2/T_UI_iconPowers_chaser": ["very_rare"],
+    "DLC2/T_UI_iconPowers_evilWithin": ["very_rare"],
+    "DLC2/T_UI_iconPowers_lungeAttack": ["very_rare"],
+    "DLC2/T_UI_iconPowers_stalk": ["very_rare"],
+    "DLC2/T_UI_iconPowers_stalker": ["very_rare"],
 
     "DLC3/iconPowers_blackenedCatalyst": ["very_rare"],
 

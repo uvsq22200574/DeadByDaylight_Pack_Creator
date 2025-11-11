@@ -6,14 +6,20 @@ This code was written in Python 3.13.7
 """
 
 import json
+import sys
 from pathlib import Path
+from os import path, chdir
+
+# Resolve the absolute path to the directory containing this script
+script_dir = path.dirname(path.abspath(sys.argv[0]))
+chdir(script_dir)
 
 # ANSI escape codes
 RED = "\033[91m"
 GREEN = "\033[92m"
 RESET = "\033[0m"
 
-PACK_ROOT = Path("./SourcePack")
+PACK_ROOT = Path("./Source_Pack")
 OUTPUT_JSON = Path("elements_layering.json")
 
 # --- Safe load old JSON -----------------------------------------------------
