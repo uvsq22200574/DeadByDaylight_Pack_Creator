@@ -84,10 +84,13 @@ for TARGET in "${TARGETS[@]}"; do
     EXT=""
     if [[ "$TARGET" == *"windows"* ]]; then
         EXT=".exe"
+        BIN_PATH="target/$TARGET/release/$PROJECT_NAME$EXT"
+    else
+        BIN_PATH="target/$TARGET/release/$PROJECT_NAME"
+        EXT=".bin"
     fi
 
     SIMPLE_NAME=${TARGET_NAMES[$TARGET]}
-    BIN_PATH="target/$TARGET/release/$PROJECT_NAME$EXT"
 
     if [ -f "$BIN_PATH" ]; then
         # Place binary at project root with version and simplified name
