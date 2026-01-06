@@ -1,6 +1,78 @@
 use image::{DynamicImage, ImageBuffer, Rgba, imageops::overlay};
 use std::path::{Path, PathBuf};
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Platform {
+    Linux,
+    Windows,
+    MacOS,
+    Unknown,
+}
+
+
+/// Detects the OS from which the binary is executed from
+pub fn detect_platform() -> Platform {
+    match std::env::consts::OS {
+        "linux" => Platform::Linux,
+        "windows" => Platform::Windows,
+        "macos" => Platform::MacOS,
+        _ => Platform::Unknown,
+    }
+}
+
+
+/// Decide if a path given is compatible with the given platform
+pub fn is_path_compatible(path: &Path, platform: Platform) -> bool {
+    let s = path.to_string_lossy();
+
+    match platform {
+        Platform::Linux | Platform::MacOS => {
+            // Reject Windows paths
+            !s.contains(':') && !s.contains('\\')
+        }
+        Platform::Windows => {
+            // Reject Unix home shortcuts
+            !s.starts_with('/') && !s.starts_with("~")
+        }
+        Platform::Unknown => false,
+    }
+}
+
+
+pub fn resolve_or_default(
+    provided: Option<&str>,
+    default: &Path,
+    platform: Platform,
+) -> PathBuf {
+    let candidate = provided
+        .filter(|s| !s.is_empty())
+        .map(PathBuf::from)
+        .unwrap_or_else(|| default.to_path_buf());
+
+    let resolved = resolve_full_path(&candidate);
+
+    if !is_path_compatible(&resolved, platform) {
+        eprintln!(
+            "Incompatible path for platform {:?}: {} → using default {}",
+            platform,
+            resolved.display(),
+            default.display()
+        );
+        return default.to_path_buf();
+    }
+
+    if !resolved.exists() {
+        eprintln!(
+            "Path does not exist: {} → using default {}",
+            resolved.display(),
+            default.display()
+        );
+        return default.to_path_buf();
+    }
+
+    resolved
+}
+
 /// Convert a hex string like "#RRGGBB" or "RRGGBB" into (r, g, b)
 pub fn hex_to_rgb(hex: &str) -> Result<(u8, u8, u8), String> {
     let hex = hex.trim_start_matches('#');

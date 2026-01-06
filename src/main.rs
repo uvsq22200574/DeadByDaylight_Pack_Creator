@@ -33,14 +33,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let settings_file = File::open("settings.json")?;
     let settings: Settings = serde_json::from_reader(settings_file)?;
 
+    let platform = helper::detect_platform();
+    println!("{}", format!("Platform: {:?}", platform).yellow());
+
     // Resolve input folder (use default if missing or empty)
-    let source_folder = settings
-        .input_path
-        .as_deref()
-        .filter(|s| !s.is_empty())
-        .map(PathBuf::from)
-        .unwrap_or_else(|| PathBuf::from("Source_Pack"));
-    let source_folder = helper::resolve_full_path(&source_folder);
+    let source_folder = helper::resolve_or_default(
+        settings.input_path.as_deref(),
+        Path::new("Source_Pack"),
+        platform,
+    );
 
     // Check if the input folder exists, else return an error
     if !source_folder.exists() || !source_folder.is_dir() {
@@ -54,12 +55,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("{}", format!("Input folder: {}", source_folder.display()).yellow());
 
     // Resolve output folder (use default if missing or empty)
-    let output_folder = settings
-        .output_path
-        .as_deref()
-        .filter(|s| !s.is_empty())
-        .map(PathBuf::from)
-        .unwrap_or_else(|| PathBuf::from("Output_Pack"));
+    let output_folder = helper::resolve_or_default(
+        settings.output_path.as_deref(),
+        Path::new("Output_Pack"),
+        platform,
+    );
     let output_folder = helper::resolve_full_path(&output_folder);
     std::fs::create_dir_all(&output_folder)?;
     println!("{}", format!("Output folder: {}", output_folder.display()).yellow());
@@ -74,9 +74,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let layer_folder_path = settings
             .layers_location
             .get(element_type)
-            .filter(|s| !s.is_empty()) // ignore empty strings
-            .map(PathBuf::from)
-            .unwrap_or_else(|| PathBuf::from("")); // empty means no layers
+            .filter(|s| !s.is_empty())
+            .map(|s| {
+                let p = helper::resolve_full_path(&PathBuf::from(s));
+                if helper::is_path_compatible(&p, platform) && p.exists() {
+                    p
+                } else {
+                    PathBuf::new()
+                }
+            })
+            .unwrap_or_else(PathBuf::new);
         let layer_folder_path = helper::resolve_full_path(&layer_folder_path);
         println!(
             "{}",
