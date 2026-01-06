@@ -74,10 +74,12 @@ pub fn resolve_full_path(path: &Path) -> PathBuf {
 /// Returns a list of missing layer file paths.
 pub fn stack_layers(
     input_image: &mut DynamicImage,
+    input_image_path: &PathBuf,
     layer_folder: &Path,
     layers: &Vec<String>,
 ) -> Vec<String> {
     let mut missing_layers = Vec::new();
+    let mut missing_layer_paths = Vec::new();
 
     for layer_name in layers {
         // Skip empty or "none"
@@ -110,10 +112,19 @@ pub fn stack_layers(
                 overlay(input_image, &processed_img, 0, 0);
             }
             Err(_) => {
-                // Accumulate missing layer paths instead of printing
-                missing_layers.push(layer_img_path.display().to_string());
+                // Collect missing layer paths first
+                missing_layer_paths.push(layer_img_path);
             }
         }
+    }
+
+    // Group all missing layers under the input image path
+    if !missing_layer_paths.is_empty() {
+        let mut grouped = format!("{}:\n", input_image_path.display());
+        for path in missing_layer_paths {
+            grouped.push_str(&format!("\t- {}\n", path.display()));
+        }
+        missing_layers.push(grouped.trim_end().to_string());
     }
 
     missing_layers

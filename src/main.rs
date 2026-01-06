@@ -5,6 +5,7 @@ use std::collections::HashMap;
 use std::fs::File;
 use std::path::{Path, PathBuf};
 use std::sync::{Arc, Mutex};
+use std::time::Instant;
 
 mod helper;
 
@@ -25,6 +26,9 @@ struct Task {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+    // Measure processing time
+    let start_time = Instant::now();
+
     // Load settings.json
     let settings_file = File::open("settings.json")?;
     let settings: Settings = serde_json::from_reader(settings_file)?;
@@ -125,7 +129,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let mut final_img = image::DynamicImage::new_rgba8(item_img.width(), item_img.height());
 
         if !layer_folder.as_os_str().is_empty() {
-            let missing = helper::stack_layers(&mut final_img, &layer_folder, layers);
+            let missing = helper::stack_layers(&mut final_img, &item_img_path, &layer_folder, layers);
             let mut missing_lock = missing_layers.lock().unwrap();
             missing_lock.extend(missing);
         }
@@ -163,6 +167,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             println!(" - {}", s);
         }
     }
+
+    let elapsed = start_time.elapsed();
+    println!("{}",format!("Total processing time: {:.2?}", elapsed).cyan());
 
     Ok(())
 }

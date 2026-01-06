@@ -936,8 +936,13 @@
     "Meteor/iconHelpLoading_ReignOfDarkness": ["none"],
     "Meteor/T_UI_iconHelpLoading_K28": ["none"],
 
+    "Omelet/T_UI_iconHelpLoading_calamariVial": [""],
+
     "Orion/iconHelpLoading_virulentBound": ["none"],
     "Orion/T_UI_iconHelpLoading_K29": ["none"],
+
+    "Poutine/T_UI_iconHelpLoading_beacon": [""],
+    "Poutine/T_UI_iconHelpLoading_K42": [""],
 
     "Qatar/iconHelpLoading_demogorgon": ["none"],
     "Qatar/T_UI_iconHelpLoading_K17": ["none"],
@@ -1899,6 +1904,27 @@
     "Orion/iconAddon_uroborosTendril": ["common"],
     "Orion/iconAddon_videoConferenceDevice": ["rare"],
 
+    "Poutine/T_UI_iconAddon_BeadMaze": ["common"],
+    "Poutine/T_UI_iconAddon_BlackWidowSpider": ["very_rare"],
+    "Poutine/T_UI_iconAddon_BloodyRollerSkate": ["uncommon"],
+    "Poutine/T_UI_iconAddon_BrokenSkateboard": ["very_rare"],
+    "Poutine/T_UI_iconAddon_ChessPiece": ["iridescent"],
+    "Poutine/T_UI_iconAddon_ClockHands": ["uncommon"],
+    "Poutine/T_UI_iconAddon_ElectrodeCap": ["rare"],
+    "Poutine/T_UI_iconAddon_ElectroshockCollar": ["very_rare"],
+    "Poutine/T_UI_iconAddon_ForgedDeathCertificate": ["rare"],
+    "Poutine/T_UI_iconAddon_GuttedSupercom": ["uncommon"],
+    "Poutine/T_UI_iconAddon_IridescentSoteriaChip": ["iridescent"],
+    "Poutine/T_UI_iconAddon_Mid-CenturyRadio": ["uncommon"],
+    "Poutine/T_UI_iconAddon_NeckTendril": ["rare"],
+    "Poutine/T_UI_iconAddon_OrderlyID": ["common"],
+    "Poutine/T_UI_iconAddon_PizzaGoggles": ["very_rare"],
+    "Poutine/T_UI_iconAddon_RabbitRemains": ["rare"],
+    "Poutine/T_UI_iconAddon_ShatteredWristRocket": ["common"],
+    "Poutine/T_UI_iconAddon_SmashedCassetteDeck": ["uncommon"],
+    "Poutine/T_UI_iconAddon_StainedGlassMural": ["common"],
+    "Poutine/T_UI_iconAddon_VictorsRazorBlade": ["rare"],
+
     "Qatar/iconAddon_barbsGlasses": ["uncommon"],
     "Qatar/iconAddon_blackHeart": ["common"],
     "Qatar/iconAddon_brassCaseLighter": ["rare"],
@@ -2255,20 +2281,20 @@
 
   "Perks": {
     "Applepie/iconPerks_Unbound": ["very_rare"],
-    "Applepie/iconPerks_Undone": ["rare"],
+    "Applepie/iconPerks_Undone": ["uncommon"],
     "Applepie/iconPerks_Unforeseen": ["very_rare"],
-    "Applepie/iconsPerks_InvocationWeavingSpiders": ["rare"],
+    "Applepie/iconsPerks_InvocationWeavingSpiders": ["uncommon"],
     "Applepie/iconsPerks_StrengthInShadows": ["iridescent","entity_claws"],
     "Applepie/iconsPerks_Wicked": ["very_rare"],
 
-    "Ash/iconPerks_BuckleUp": ["rare"],
+    "Ash/iconPerks_BuckleUp": ["uncommon"],
     "Ash/iconPerks_FlipFlop": ["very_rare"],
     "Ash/iconPerks_MettleOfMan": ["very_rare"],
 
     "Aurora/iconPerks_Appraisal": ["very_rare"],
     "Aurora/iconPerks_CoupDeGrace": ["very_rare"],
-    "Aurora/iconPerks_Deception": ["rare"],
-    "Aurora/iconPerks_Hoarder": ["rare"],
+    "Aurora/iconPerks_Deception": ["uncommon"],
+    "Aurora/iconPerks_Hoarder": ["uncommon"],
     "Aurora/iconPerks_Oppression": ["very_rare"],
     "Aurora/iconPerks_PowerStruggle": ["very_rare"],
 
@@ -2276,18 +2302,18 @@
     "Cannibal/iconPerks_FranklinsLoss": ["iridescent","entity_claws"],
     "Cannibal/iconPerks_KnockOut": ["very_rare"],
 
-    "Churros/iconPerks_BardicInspiration": ["rare"],
+    "Churros/iconPerks_BardicInspiration": ["uncommon"],
     "Churros/iconPerks_DarkArrogance": ["very_rare"],
     "Churros/iconPerks_LanguidTouch": ["very_rare"],
-    "Churros/iconPerks_MirroredIllusion": ["rare"],
-    "Churros/iconPerks_StillSight": ["rare"],
+    "Churros/iconPerks_MirroredIllusion": ["uncommon"],
+    "Churros/iconPerks_StillSight": ["uncommon"],
     "Churros/iconPerks_WeaveAttunement": ["iridescent","entity_claws"],
 
     "Comet/iconPerks_FastTrack": ["very_rare"],
     "Comet/iconPerks_HexCrowdControl": ["very_rare"],
     "Comet/iconPerks_NoWayOut": ["very_rare"],
-    "Comet/iconPerks_Self-Preservation": ["rare"],
-    "Comet/iconPerks_SmashHit": ["rare"],
+    "Comet/iconPerks_Self-Preservation": ["uncommon"],
+    "Comet/iconPerks_SmashHit": ["uncommon"],
     "Comet/iconPerks_Starstruck": ["very_rare"],
 
     "DLC2/iconPerks_DecisiveStrike": ["very_rare"],
@@ -2295,11 +2321,11 @@
     "DLC2/iconPerks_ObjectOfObsession": ["very_rare"],
     "DLC2/iconPerks_PlayWithYourFood": ["very_rare"],
     "DLC2/iconPerks_SaveTheBestForLast": ["iridescent","entity_claws"],
-    "DLC2/iconPerks_SoleSurvivor": ["rare"],
+    "DLC2/iconPerks_SoleSurvivor": ["uncommon"],
 
     "DLC3/iconPerks_AceInTheHole": ["very_rare"],
     "DLC3/iconPerks_DevourHope": ["iridescent","entity_claws"],
-    "DLC3/iconPerks_OpenHanded": ["rare"],
+    "DLC3/iconPerks_OpenHanded": ["uncommon"],
     "DLC3/iconPerks_Ruin": ["very_rare"],
     "DLC3/iconPerks_TheThirdSeal": ["very_rare"],
     "DLC3/iconPerks_ThrillOfTheHunt": ["iridescent","entity_claws"],
@@ -2310,13 +2336,13 @@
     "DLC4/iconPerks_Lithe": ["iridescent","entity_claws"],
     "DLC4/iconPerks_MonitorAndAbuse": ["very_rare"],
     "DLC4/iconPerks_OverwhelmingPresence": ["very_rare"],
-    "DLC4/iconPerks_Technician": ["rare"],
+    "DLC4/iconPerks_Technician": ["uncommon"],
 
-    "DLC5/iconPerks_BeastOfPrey": ["rare"],
+    "DLC5/iconPerks_BeastOfPrey": ["uncommon"],
     "DLC5/iconPerks_DeadHard": ["iridescent","entity_claws"],
     "DLC5/iconPerks_HuntressLullaby": ["iridescent","entity_claws"],
-    "DLC5/iconPerks_NoMither": ["rare"],
-    "DLC5/iconPerks_TerritorialImperative": ["rare"],
+    "DLC5/iconPerks_NoMither": ["uncommon"],
+    "DLC5/iconPerks_TerritorialImperative": ["uncommon"],
     "DLC5/iconPerks_WereGonnaLiveForever": ["iridescent","entity_claws"],
 
     "Donut/iconPerks_Finesse": ["iridescent","entity_claws"],
@@ -2325,9 +2351,9 @@
 
     "Eclair/iconPerks_Dominance": ["very_rare"],
     "Eclair/iconPerks_Exultation": ["very_rare"],
-    "Eclair/iconPerks_EyesOfBelmont": ["rare"],
+    "Eclair/iconPerks_EyesOfBelmont": ["uncommon"],
     "Eclair/iconPerks_HexWretchedFate": ["very_rare"],
-    "Eclair/iconPerks_HumanGreed": ["rare"],
+    "Eclair/iconPerks_HumanGreed": ["uncommon"],
     "Eclair/iconPerks_MomentOfGlory": ["very_rare"],
 
     "Eclipse/iconPerks_BiteTheBullet": ["very_rare"],
@@ -2335,30 +2361,30 @@
     "Eclipse/iconPerks_Counterforce": ["very_rare"],
     "Eclipse/iconPerks_Eruption": ["very_rare"],
     "Eclipse/iconPerks_Flashbang": ["very_rare"],
-    "Eclipse/iconPerks_Hysteria": ["rare"],
+    "Eclipse/iconPerks_Hysteria": ["uncommon"],
     "Eclipse/iconPerks_LethalPursuer": ["iridescent","entity_claws"],
     "Eclipse/iconPerks_Resurgence": ["iridescent","entity_claws"],
-    "Eclipse/iconPerks_RookieSpirit": ["rare"],
+    "Eclipse/iconPerks_RookieSpirit": ["uncommon"],
 
     "England/iconPerks_BloodWarden": ["iridescent","entity_claws"],
     "England/iconPerks_FireUp": ["very_rare"],
-    "England/iconPerks_Pharmacy": ["rare"],
+    "England/iconPerks_Pharmacy": ["uncommon"],
     "England/iconPerks_RememberMe": ["iridescent","entity_claws"],
     "England/iconPerks_Vigil": ["iridescent","entity_claws"],
     "England/iconPerks_WakeUp": ["very_rare"],
 
     "Finland/iconPerks_DetectivesHunch": ["very_rare"],
-    "Finland/iconPerks_HangmansTrick": ["rare"],
+    "Finland/iconPerks_HangmansTrick": ["uncommon"],
     "Finland/iconPerks_MakeYourChoice": ["very_rare"],
     "Finland/iconPerks_StakeOut": ["very_rare"],
     "Finland/iconPerks_Surveillance": ["very_rare"],
     "Finland/iconPerks_Tenacity": ["very_rare"],
 
     "Gelato/T_UI_iconPerks_AllShakingThunder": ["very_rare"],
-    "Gelato/T_UI_iconPerks_NoQuarter": ["rare"],
+    "Gelato/T_UI_iconPerks_NoQuarter": ["uncommon"],
     "Gelato/T_UI_iconPerks_ScourgeHookJaggedCompass": ["iridescent","entity_claws"],
-    "Gelato/T_UI_iconsPerks_CleanBreak": ["rare"],
-    "Gelato/T_UI_iconsPerks_InvocationTreacherousCrows": ["rare"],
+    "Gelato/T_UI_iconsPerks_CleanBreak": ["uncommon"],
+    "Gelato/T_UI_iconsPerks_InvocationTreacherousCrows": ["uncommon"],
     "Gelato/T_UI_iconsPerks_ShoulderTheBurden": ["iridescent","entity_claws"],
 
     "Gemini/iconPerks_Deadlock": ["very_rare"],
@@ -2378,10 +2404,10 @@
 
     "Hubble/iconPerks_BoonCircleOfHealing": ["very_rare"],
     "Hubble/iconPerks_BoonShadowStep": ["very_rare"],
-    "Hubble/iconPerks_Clairvoyance": ["rare"],
+    "Hubble/iconPerks_Clairvoyance": ["uncommon"],
 
     "Icecream/T_UI_iconPerks_ForeverEntwined": ["very_rare"],
-    "Icecream/T_UI_iconPerks_NoneAreFree": ["rare"],
+    "Icecream/T_UI_iconPerks_NoneAreFree": ["uncommon"],
     "Icecream/T_UI_iconPerks_NothingButMisery": ["iridescent","entity_claws"],
 
     "iconPerks_Adrenaline": ["iridescent","entity_claws"],
@@ -2394,7 +2420,7 @@
 
     "iconPerks_BitterMurmur": ["very_rare"],
 
-    "iconPerks_Bloodhound": ["rare"],
+    "iconPerks_Bloodhound": ["uncommon"],
 
     "iconPerks_Bond": ["very_rare"],
 
@@ -2402,11 +2428,11 @@
 
     "iconPerks_BrutalStrength": ["iridescent","entity_claws"],
 
-    "iconPerks_CalmSpirit": ["rare"],
+    "iconPerks_CalmSpirit": ["uncommon"],
 
     "iconPerks_DarkSense": ["very_rare"],
 
-    "iconPerks_Deerstalker": ["rare"],
+    "iconPerks_Deerstalker": ["uncommon"],
 
     "iconPerks_DejaVu": ["iridescent","entity_claws"],
 
@@ -2432,17 +2458,17 @@
 
     "iconPerks_Lightweight": ["very_rare"],
 
-    "iconPerks_MonstrousShrine": ["rare"],
+    "iconPerks_MonstrousShrine": ["uncommon"],
 
     "iconPerks_NoOneEscapesDeath": ["iridescent","entity_claws"],
 
-    "iconPerks_NoOneLeftBehind": ["rare"],
+    "iconPerks_NoOneLeftBehind": ["uncommon"],
 
     "iconPerks_PlunderersInstinct": ["iridescent","entity_claws"],
 
     "iconPerks_Predator": ["very_rare"],
 
-    "iconPerks_Premonition": ["rare"],
+    "iconPerks_Premonition": ["uncommon"],
 
     "iconPerks_ProveThyself": ["very_rare"],
 
@@ -2452,19 +2478,19 @@
 
     "iconPerks_Saboteur": ["very_rare"],
 
-    "iconPerks_SelfCare": ["rare"],
+    "iconPerks_SelfCare": ["uncommon"],
 
-    "iconPerks_Shadowborn": ["rare"],
+    "iconPerks_Shadowborn": ["uncommon"],
 
     "iconPerks_SlipperyMeat": ["very_rare"],
 
     "iconPerks_SloppyButcher": ["iridescent","entity_claws"],
 
-    "iconPerks_SmallGame": ["rare"],
+    "iconPerks_SmallGame": ["uncommon"],
 
     "iconPerks_SpiesFromTheShadows": ["iridescent","entity_claws"],
 
-    "iconPerks_SpineChill": ["rare"],
+    "iconPerks_SpineChill": ["uncommon"],
 
     "iconPerks_SprintBurst": ["iridescent","entity_claws"],
 
@@ -2480,16 +2506,16 @@
 
     "iconPerks_UnnervingPresence": ["very_rare"],
 
-    "iconPerks_Unrelenting": ["rare"],
+    "iconPerks_Unrelenting": ["uncommon"],
 
-    "iconPerks_UrbanEvasion": ["rare"],
+    "iconPerks_UrbanEvasion": ["uncommon"],
 
     "iconPerks_WellMakeIt": ["very_rare"],
 
     "iconPerks_Whispers": ["very_rare"],
 
     "Ion/T_iconPerks_BoonExponential": ["iridescent","entity_claws"],
-    "Ion/T_iconPerks_CorrectiveAction": ["rare"],
+    "Ion/T_iconPerks_CorrectiveAction": ["uncommon"],
     "Ion/T_iconPerks_GrimEmbrace": ["very_rare"],
     "Ion/T_iconPerks_HexPentimento": ["iridescent","entity_claws"],
     "Ion/T_iconPerks_Overcome": ["very_rare"],
@@ -2497,7 +2523,7 @@
 
     "Jerky/T_UI_iconsPerks_DoNoHarm": ["iridescent","entity_claws"],
     "Jerky/T_UI_iconsPerks_DutyOfCare": ["very_rare"],
-    "Jerky/T_UI_iconsPerks_RapidResponse": ["rare"],
+    "Jerky/T_UI_iconsPerks_RapidResponse": ["uncommon"],
 
     "Kate/iconPerks_BoilOver": ["very_rare"],
     "Kate/iconPerks_DanceWithMe": ["very_rare"],
@@ -2511,28 +2537,28 @@
     "Kenya/iconPerks_MadGrit": ["very_rare"],
 
     "Kepler/iconPerks_CallOfBrine": ["very_rare"],
-    "Kepler/iconPerks_DarkTheory": ["rare"],
-    "Kepler/iconPerks_EmpathicConnection": ["rare"],
+    "Kepler/iconPerks_DarkTheory": ["uncommon"],
+    "Kepler/iconPerks_EmpathicConnection": ["uncommon"],
     "Kepler/iconPerks_FloodOfRage": ["iridescent","entity_claws"],
     "Kepler/iconPerks_MercilessStorm": ["very_rare"],
-    "Kepler/iconPerks_ParentalGuidance": ["rare"],
+    "Kepler/iconPerks_ParentalGuidance": ["uncommon"],
 
-    "Ketchup/T_UI_iconPerks_Haywire": ["rare"],
-    "Ketchup/T_UI_iconPerks_HelpWanted": ["rare"],
+    "Ketchup/T_UI_iconPerks_Haywire": ["uncommon"],
+    "Ketchup/T_UI_iconPerks_HelpWanted": ["uncommon"],
     "Ketchup/T_UI_iconPerks_NoHoldsBarred": ["very_rare"],
     "Ketchup/T_UI_iconPerks_PhantomFear": ["iridescent","entity_claws"],
     "Ketchup/T_UI_iconPerks_WeepingWounds": ["iridescent","entity_claws"],
 
     "L4D/iconPerks_BorrowedTime": ["very_rare"],
-    "L4D/iconPerks_LeftBehind": ["rare"],
+    "L4D/iconPerks_LeftBehind": ["uncommon"],
     "L4D/iconPerks_Unbreakable": ["iridescent","entity_claws"],
 
     "Lasagna/T_UI_iconPerks_ApocalypticIngenuity": ["very_rare"],
-    "Lasagna/T_UI_iconPerks_ComeAndGetMe": ["rare"],
+    "Lasagna/T_UI_iconPerks_ComeAndGetMe": ["uncommon"],
     "Lasagna/T_UI_iconPerks_Conviction": ["iridescent","entity_claws"],
     "Lasagna/T_UI_iconPerks_LastStand": ["iridescent","entity_claws"],
     "Lasagna/T_UI_iconPerks_TeamworkThrowDown": ["iridescent","entity_claws"],
-    "Lasagna/T_UI_iconPerks_TeamworkToughenUp": ["rare"],
+    "Lasagna/T_UI_iconPerks_TeamworkToughenUp": ["uncommon"],
 
     "Mali/iconPerks_CorruptIntervention": ["iridescent","entity_claws"],
     "Mali/iconPerks_DarkDevotion": ["very_rare"],
@@ -2543,35 +2569,47 @@
 
     "Maple/T_UI_iconPerks_GhostNotes": ["very_rare"],
     "Maple/T_UI_iconPerks_HexOvertureOfDoom": ["very_rare"],
-    "Maple/T_UI_iconPerks_OneTwoThreeFour": ["rare"],
+    "Maple/T_UI_iconPerks_OneTwoThreeFour": ["uncommon"],
     "Maple/T_UI_iconPerks_Ravenous": ["very_rare"],
-    "Maple/T_UI_iconPerks_RoadLife": ["rare"],
-    "Maple/T_UI_iconPerks_WanderingEye": ["rare"],
+    "Maple/T_UI_iconPerks_RoadLife": ["uncommon"],
+    "Maple/T_UI_iconPerks_WanderingEye": ["uncommon"],
 
-    "Meteor/iconPerks_BoonDestroyer": ["rare"],
+    "Meteor/iconPerks_BoonDestroyer": ["uncommon"],
     "Meteor/iconPerks_DarknessRevelated": ["very_rare"],
-    "Meteor/iconPerks_Dissolution": ["rare"],
-    "Meteor/iconPerks_InnerFocus": ["rare"],
-    "Meteor/iconPerks_Overzealous": ["rare"],
+    "Meteor/iconPerks_Dissolution": ["uncommon"],
+    "Meteor/iconPerks_InnerFocus": ["uncommon"],
+    "Meteor/iconPerks_Overzealous": ["uncommon"],
     "Meteor/iconPerks_ResidualManifest": ["very_rare"],
-    "Meteor/iconPerks_SepticTouch": ["rare"],
+    "Meteor/iconPerks_SepticTouch": ["uncommon"],
 
     "Oman/iconPerks_FurtiveChase": ["very_rare"],
     "Oman/iconPerks_ImAllEars": ["very_rare"],
-    "Oman/iconPerks_ThrillingTremors": ["rare"],
+    "Oman/iconPerks_ThrillingTremors": ["uncommon"],
 
-    "Orion/iconPerks_AwakenedAwarenesss": ["rare"],
+    "Orion/iconPerks_AwakenedAwarenesss": ["uncommon"],
     "Orion/iconPerks_BetterThanNew": ["very_rare"],
     "Orion/iconPerks_Hyperfocus": ["iridescent","entity_claws"],
-    "Orion/iconPerks_LowProfile": ["rare"],
+    "Orion/iconPerks_LowProfile": ["uncommon"],
     "Orion/iconPerks_ReactiveHealing": ["very_rare"],
     "Orion/iconPerks_Reassurance": ["iridescent","entity_claws"],
     "Orion/iconPerks_SuperiorAnatomy": ["iridescent","entity_claws"],
     "Orion/iconPerks_Terminus": ["very_rare"],
     "Orion/iconPerks_Wiretap": ["iridescent","entity_claws"],
 
+    "Poutine/T_UI_iconsPerks_BadaBadaBoom": ["iridescent","entity_claws"],
+    "Poutine/T_UI_iconsPerks_ChangeOfPlan": ["very_rare"],
+    "Poutine/T_UI_iconsPerks_DesperateFocus": ["very_rare"],
+    "Poutine/T_UI_iconsPerks_ExtrasensoryPerception": ["iridescent","entity_claws"],
+    "Poutine/T_UI_iconsPerks_HexHiveMind": ["iridescent","entity_claws"],
+    "Poutine/T_UI_iconsPerks_SecretProject": ["very_rare"],
+    "Poutine/T_UI_iconsPerks_TeamworkFullCircuit": ["uncommon"],
+    "Poutine/T_UI_iconsPerks_TeamworkSoftSpoken": ["uncommon"],
+    "Poutine/T_UI_iconsPerks_ToyWithThem": ["very_rare"],
+    "Poutine/T_UI_iconsPerks_TurnBackTheClock": ["iridescent","entity_claws"],
+    "Poutine/T_UI_iconsPerks_WeSeeYou": ["iridescent","entity_claws"],
+
     "Qatar/iconPerks_babySitter": ["iridescent","entity_claws"],
-    "Qatar/iconPerks_betterTogether": ["rare"],
+    "Qatar/iconPerks_betterTogether": ["uncommon"],
     "Qatar/iconPerks_Camaraderie": ["iridescent","entity_claws"],
     "Qatar/iconPerks_CruelConfinement": ["very_rare"],
     "Qatar/iconPerks_Fixated": ["very_rare"],
@@ -2589,16 +2627,16 @@
     "Quantum/iconPerks_Hubris": ["very_rare"],
     "Quantum/iconPerks_NowhereToHide": ["iridescent","entity_claws"],
     "Quantum/iconPerks_PotentialEnergy": ["very_rare"],
-    "Quantum/iconPerks_VittoriosGambit": ["rare"],
+    "Quantum/iconPerks_VittoriosGambit": ["uncommon"],
 
     "Saturn/iconPerks_BackgroundPlayer": ["iridescent","entity_claws"],
     "Saturn/iconPerks_BloodRush": ["very_rare"],
-    "Saturn/iconPerks_CutLoose": ["rare"],
-    "Saturn/iconPerks_FriendlyCompetition": ["rare"],
+    "Saturn/iconPerks_CutLoose": ["uncommon"],
+    "Saturn/iconPerks_FriendlyCompetition": ["uncommon"],
     "Saturn/iconPerks_GameAfoot": ["very_rare"],
     "Saturn/iconPerks_Leverage": ["iridescent","entity_claws"],
-    "Saturn/iconPerks_TeamworkCollectiveStealth": ["rare"],
-    "Saturn/iconPerks_TeamworkPowerOfTwo": ["rare"],
+    "Saturn/iconPerks_TeamworkCollectiveStealth": ["uncommon"],
+    "Saturn/iconPerks_TeamworkPowerOfTwo": ["uncommon"],
     "Saturn/iconPerks_Thwack": ["very_rare"],
 
     "Sweden/iconPerks_AnyMeansNecessary": ["iridescent","entity_claws"],
@@ -2606,17 +2644,17 @@
     "Sweden/iconPerks_Breakout": ["very_rare"],
     "Sweden/iconPerks_LuckyBreak": ["very_rare"],
     "Sweden/iconPerks_Nemesis": ["very_rare"],
-    "Sweden/iconPerks_ZanshinTactics": ["rare"],
+    "Sweden/iconPerks_ZanshinTactics": ["uncommon"],
 
     "Ukraine/iconPerks_DeadManSwitch": ["iridescent","entity_claws"],
     "Ukraine/iconPerks_ForThePeople": ["iridescent","entity_claws"],
     "Ukraine/iconPerks_GearHead": ["very_rare"],
     "Ukraine/iconPerks_HexRetribution": ["very_rare"],
     "Ukraine/iconPerks_OffTheRecord": ["iridescent","entity_claws"],
-    "Ukraine/iconPerks_RedHerring": ["rare"],
+    "Ukraine/iconPerks_RedHerring": ["uncommon"],
 
     "Umbra/IconPerks_ForcedHesitation": ["very_rare"],
-    "Umbra/IconPerks_GeneticLimits": ["rare"],
+    "Umbra/IconPerks_GeneticLimits": ["uncommon"],
     "Umbra/IconPerks_madeForThis": ["very_rare"],
     "Umbra/IconPerks_scavenger": ["very_rare"],
     "Umbra/IconPerks_SelfAware": ["very_rare"],
@@ -2624,11 +2662,11 @@
 
     "Venus/iconPerks_Dramaturgy": ["iridescent","entity_claws"],
     "Venus/iconPerks_PlotTwist": ["very_rare"],
-    "Venus/iconPerks_ScenePartner": ["rare"],
+    "Venus/iconPerks_ScenePartner": ["uncommon"],
 
     "Wales/iconPerks_BloodPact": ["very_rare"],
-    "Wales/iconPerks_Deathbound": ["rare"],
-    "Wales/iconPerks_ForcedPenance": ["rare"],
+    "Wales/iconPerks_Deathbound": ["uncommon"],
+    "Wales/iconPerks_ForcedPenance": ["uncommon"],
     "Wales/iconPerks_RepressedAlliance": ["very_rare"],
     "Wales/iconPerks_SoulGuard": ["iridescent","entity_claws"],
     "Wales/iconPerks_TrailOfTorment": ["very_rare"],
@@ -2657,151 +2695,155 @@
   },
 
   "Powers": {
-    "Applepie/iconPowers_AOE_Projectile": ["very_rare"],
-    "Applepie/iconPowers_ChargeUVX_K35": ["very_rare"],
-    "Applepie/iconPowers_CreateHallucination_K35": ["very_rare"],
-    "Applepie/iconPowers_LaunchUVX_K35": ["very_rare"],
-    "Applepie/iconPowers_Teleport_K35": ["very_rare"],
+    "Applepie/iconPowers_AOE_Projectile": ["iridescent"],
+    "Applepie/iconPowers_ChargeUVX_K35": ["iridescent"],
+    "Applepie/iconPowers_CreateHallucination_K35": ["iridescent"],
+    "Applepie/iconPowers_LaunchUVX_K35": ["iridescent"],
+    "Applepie/iconPowers_Teleport_K35": ["iridescent"],
 
-    "Aurora/iconPowers_bloodBond_01": ["very_rare"],
-    "Aurora/iconPowers_bloodBond_02": ["very_rare"],
-    "Aurora/iconPowers_bloodBond_03": ["very_rare"],
+    "Aurora/iconPowers_bloodBond_01": ["iridescent"],
+    "Aurora/iconPowers_bloodBond_02": ["iridescent"],
+    "Aurora/iconPowers_bloodBond_03": ["iridescent"],
 
-    "Cannibal/iconPowers_bubbasChainsaw": ["very_rare"],
-    "Cannibal/iconPowers_Tantrum": ["very_rare"],
+    "Cannibal/iconPowers_bubbasChainsaw": ["iridescent"],
+    "Cannibal/iconPowers_Tantrum": ["iridescent"],
 
-    "Churros/iconPowers_DispellingSphere": ["very_rare"],
-    "Churros/iconPowers_FlightoftheDamned": ["very_rare"],
-    "Churros/iconPowers_Fly": ["very_rare"],
-    "Churros/iconPowers_MageHand": ["very_rare"],
-    "Churros/iconPowers_SpellSelection_DispellingSphere": ["very_rare"],
-    "Churros/iconPowers_SpellSelection_FlightoftheDamned": ["very_rare"],
-    "Churros/iconPowers_SpellSelection_Fly": ["very_rare"],
-    "Churros/iconPowers_SpellSelection_MageHand": ["very_rare"],
-    "Churros/iconPowers_VileDarkness": ["very_rare"],
+    "Churros/iconPowers_DispellingSphere": ["iridescent"],
+    "Churros/iconPowers_FlightoftheDamned": ["iridescent"],
+    "Churros/iconPowers_Fly": ["iridescent"],
+    "Churros/iconPowers_MageHand": ["iridescent"],
+    "Churros/iconPowers_SpellSelection_DispellingSphere": ["iridescent"],
+    "Churros/iconPowers_SpellSelection_FlightoftheDamned": ["iridescent"],
+    "Churros/iconPowers_SpellSelection_Fly": ["iridescent"],
+    "Churros/iconPowers_SpellSelection_MageHand": ["iridescent"],
+    "Churros/iconPowers_VileDarkness": ["iridescent"],
 
-    "Comet/iconPowers_Showstopper_01": ["very_rare"],
-    "Comet/iconPowers_Showstopper_02": ["very_rare"],
-    "Comet/iconPowers_Showstopper_03": ["very_rare"],
+    "Comet/iconPowers_Showstopper_01": ["iridescent"],
+    "Comet/iconPowers_Showstopper_02": ["iridescent"],
+    "Comet/iconPowers_Showstopper_03": ["iridescent"],
 
-    "DLC2/T_UI_iconPowers_chaser": ["very_rare"],
-    "DLC2/T_UI_iconPowers_evilWithin": ["very_rare"],
-    "DLC2/T_UI_iconPowers_lungeAttack": ["very_rare"],
-    "DLC2/T_UI_iconPowers_stalk": ["very_rare"],
-    "DLC2/T_UI_iconPowers_stalker": ["very_rare"],
+    "DLC2/T_UI_iconPowers_chaser": ["iridescent"],
+    "DLC2/T_UI_iconPowers_evilWithin": ["iridescent"],
+    "DLC2/T_UI_iconPowers_lungeAttack": ["iridescent"],
+    "DLC2/T_UI_iconPowers_stalk": ["iridescent"],
+    "DLC2/T_UI_iconPowers_stalker": ["iridescent"],
 
-    "DLC3/iconPowers_blackenedCatalyst": ["very_rare"],
+    "DLC3/iconPowers_blackenedCatalyst": ["iridescent"],
 
     "DLC4/iconPowers_cartersSpark": ["very_rare","power_bezel_template#00FFFF"],
 
-    "DLC5/iconPowers_huntingHatchets": ["very_rare"],
+    "DLC5/iconPowers_huntingHatchets": ["iridescent"],
 
-    "Eclair/iconPowers_K37_BatForm": ["very_rare"],
-    "Eclair/iconPowers_K37_CastHellfire": ["very_rare"],
-    "Eclair/iconPowers_K37_ChargeHellfire": ["very_rare"],
-    "Eclair/iconPowers_K37_ReadyTeleport": ["very_rare"],
-    "Eclair/iconPowers_K37_Shapeshift": ["very_rare"],
-    "Eclair/iconPowers_K37_Teleport": ["very_rare"],
-    "Eclair/iconPowers_K37_VampireForm": ["very_rare"],
-    "Eclair/iconPowers_K37_WolfForm": ["very_rare"],
-    "Eclair/iconPowers_K37_WolfPounce": ["very_rare"],
+    "Eclair/iconPowers_K37_BatForm": ["iridescent"],
+    "Eclair/iconPowers_K37_CastHellfire": ["iridescent"],
+    "Eclair/iconPowers_K37_ChargeHellfire": ["iridescent"],
+    "Eclair/iconPowers_K37_ReadyTeleport": ["iridescent"],
+    "Eclair/iconPowers_K37_Shapeshift": ["iridescent"],
+    "Eclair/iconPowers_K37_Teleport": ["iridescent"],
+    "Eclair/iconPowers_K37_VampireForm": ["iridescent"],
+    "Eclair/iconPowers_K37_WolfForm": ["iridescent"],
+    "Eclair/iconPowers_K37_WolfPounce": ["iridescent"],
 
-    "Eclipse/iconPowers_T-virus": ["very_rare","power_bezel_template#0000FF"],
-    "Eclipse/iconPowers_T-virus1": ["very_rare","power_bezel_template#0000FF"],
-    "Eclipse/iconPowers_T-virus2": ["very_rare","power_bezel_template#0000FF"],
-    "Eclipse/iconPowers_T-virus3": ["very_rare","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus": ["iridescent","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus1": ["iridescent","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus2": ["iridescent","power_bezel_template#0000FF"],
+    "Eclipse/iconPowers_T-virus3": ["iridescent","power_bezel_template#0000FF"],
 
-    "England/iconPowers_dreamMaster": ["very_rare"],
-    "England/T_UI_iconPowers_BloodyPallet": ["very_rare"],
-    "England/T_UI_iconPowers_ExplodePallet": ["very_rare"],
-    "England/T_UI_iconPowers_Snare": ["very_rare"],
-    "England/T_UI_iconPowers_SnareSwitch": ["very_rare"],
-    "England/T_UI_iconPowers_SnareTeleport": ["very_rare"],
+    "England/iconPowers_dreamMaster": ["iridescent"],
+    "England/T_UI_iconPowers_BloodyPallet": ["iridescent"],
+    "England/T_UI_iconPowers_ExplodePallet": ["iridescent"],
+    "England/T_UI_iconPowers_Snare": ["iridescent"],
+    "England/T_UI_iconPowers_SnareSwitch": ["iridescent"],
+    "England/T_UI_iconPowers_SnareTeleport": ["iridescent"],
 
-    "Finland/iconPowers_reverseBearTrap": ["very_rare"],
+    "Finland/iconPowers_reverseBearTrap": ["iridescent"],
 
-    "Gelato/iconPowers_DashCommand_K38": ["very_rare"],
-    "Gelato/iconPowers_DashRedirect_K38": ["very_rare"],
-    "Gelato/iconPowers_DogGuarding_K38": ["very_rare"],
-    "Gelato/iconPowers_DogReturn_K38": ["very_rare"],
-    "Gelato/iconPowers_PatrolCommand_K38": ["very_rare"],
-    "Gelato/iconPowers_RecallDog_K38": ["very_rare"],
-    "Gelato/iconPowers_SwapControl_K38": ["very_rare"],
+    "Gelato/iconPowers_DashCommand_K38": ["iridescent"],
+    "Gelato/iconPowers_DashRedirect_K38": ["iridescent"],
+    "Gelato/iconPowers_DogGuarding_K38": ["iridescent"],
+    "Gelato/iconPowers_DogReturn_K38": ["iridescent"],
+    "Gelato/iconPowers_PatrolCommand_K38": ["iridescent"],
+    "Gelato/iconPowers_RecallDog_K38": ["iridescent"],
+    "Gelato/iconPowers_SwapControl_K38": ["iridescent"],
 
-    "Gemini/iconPowers_summonsOfPain": ["very_rare"],
+    "Gemini/iconPowers_summonsOfPain": ["iridescent"],
 
-    "Guam/iconPowers_gasBomb": ["very_rare"],
-    "Guam/iconPowers_gasBomb2": ["very_rare"],
+    "Guam/iconPowers_gasBomb": ["iridescent"],
+    "Guam/iconPowers_gasBomb2": ["iridescent"],
 
-    "Haiti/iconPowers_yamaokasHaunting": ["very_rare"],
+    "Haiti/iconPowers_yamaokasHaunting": ["iridescent"],
 
-    "Icecream/iconPowers_AimEnragedMode_K39": ["very_rare"],
-    "Icecream/iconPowers_AimKaguneLeap_K39": ["very_rare"],
-    "Icecream/iconPowers_CancelKaguneLeap_K39": ["very_rare"],
-    "Icecream/iconPowers_FireEnragedMode_K39": ["very_rare"],
-    "Icecream/iconPowers_FireKaguneLeap_K39": ["very_rare"],
+    "Icecream/iconPowers_AimEnragedMode_K39": ["iridescent"],
+    "Icecream/iconPowers_AimKaguneLeap_K39": ["iridescent"],
+    "Icecream/iconPowers_CancelKaguneLeap_K39": ["iridescent"],
+    "Icecream/iconPowers_FireEnragedMode_K39": ["iridescent"],
+    "Icecream/iconPowers_FireKaguneLeap_K39": ["iridescent"],
 
-    "iconPowers_bell": ["very_rare"],
+    "iconPowers_bell": ["iridescent"],
 
-    "iconPowers_breath": ["very_rare"],
+    "iconPowers_breath": ["iridescent"],
 
-    "iconPowers_chainsaw": ["very_rare"],
+    "iconPowers_chainsaw": ["iridescent"],
 
-    "iconPowers_chainsawCharge": ["very_rare"],
+    "iconPowers_chainsawCharge": ["iridescent"],
 
-    "iconPowers_trap": ["very_rare"],
+    "iconPowers_trap": ["iridescent"],
 
-    "Ion/T_iconPowers_birdsOfTorment": ["very_rare"],
+    "Ion/T_iconPowers_birdsOfTorment": ["iridescent"],
 
-    "Kenya/iconPowers_feralFrenzy": ["very_rare"],
+    "Kenya/iconPowers_feralFrenzy": ["iridescent"],
 
-    "Kepler/iconPowers_delugeOfFear": ["very_rare"],
-    "Kepler/iconPowers_delugeOfFear2": ["very_rare"],
+    "Kepler/iconPowers_delugeOfFear": ["iridescent"],
+    "Kepler/iconPowers_delugeOfFear2": ["iridescent"],
 
-    "Ketchup/iconPowers_ProjectileGrab_K40": ["very_rare"],
-    "Ketchup/iconPowers_RetrieveAxe_K40": ["very_rare"],
-    "Ketchup/iconPowers_ThrowAxe_K40": ["very_rare"],
+    "Ketchup/iconPowers_ProjectileGrab_K40": ["iridescent"],
+    "Ketchup/iconPowers_RetrieveAxe_K40": ["iridescent"],
+    "Ketchup/iconPowers_ThrowAxe_K40": ["iridescent"],
 
-    "Mali/iconPowers_vilePurge": ["very_rare"],
+    "Mali/iconPowers_vilePurge": ["iridescent"],
 
-    "Maple/T_UI_iconPowers_GoLow_K41": ["very_rare"],
-    "Maple/T_UI_iconPowers_HeadForm_K41": ["very_rare"],
-    "Maple/T_UI_iconPowers_HumanForm_K41": ["very_rare"],
-    "Maple/T_UI_iconPowers_Projectile_K41": ["very_rare"],
+    "Maple/T_UI_iconPowers_GoLow_K41": ["iridescent"],
+    "Maple/T_UI_iconPowers_HeadForm_K41": ["iridescent"],
+    "Maple/T_UI_iconPowers_HumanForm_K41": ["iridescent"],
+    "Maple/T_UI_iconPowers_Projectile_K41": ["iridescent"],
 
-    "Meteor/T_iconPowers_ReignofDarkness": ["very_rare"],
+    "Meteor/T_iconPowers_ReignofDarkness": ["iridescent"],
 
-    "Oman/iconPowers_ghostPower_activated": ["very_rare"],
-    "Oman/iconPowers_ghostPower_available": ["very_rare"],
+    "Oman/iconPowers_ghostPower_activated": ["iridescent"],
+    "Oman/iconPowers_ghostPower_available": ["iridescent"],
 
-    "Orion/iconPowers_virulentBound": ["very_rare"],
+    "Orion/iconPowers_virulentBound": ["iridescent"],
 
-    "Qatar/iconPowers_ofTheAbyss": ["very_rare"],
+    "Poutine/T_UI_iconPowers_EnterUpsideDown": ["iridescent"],
+    "Poutine/T_UI_iconPowers_FocusAttack": ["iridescent"],
+    "Poutine/T_UI_iconPowers_GroundAttack": ["iridescent"],
 
-    "Quantum/T_iconPowers_Assassin": ["very_rare"],
-    "Quantum/T_iconPowers_Executioner": ["very_rare"],
-    "Quantum/T_iconPowers_Jailer": ["very_rare"],
+    "Qatar/iconPowers_ofTheAbyss": ["iridescent"],
 
-    "Saturn/iconPowers_drones": ["very_rare"],
-    "Saturn/iconPowers_track": ["very_rare"],
+    "Quantum/T_iconPowers_Assassin": ["iridescent"],
+    "Quantum/T_iconPowers_Executioner": ["iridescent"],
+    "Quantum/T_iconPowers_Jailer": ["iridescent"],
 
-    "Sweden/iconPowers_yamaokasWrath": ["very_rare"],
-    "Sweden/iconPowers_yamaokasWrath_demon": ["very_rare"],
+    "Saturn/iconPowers_drones": ["iridescent"],
+    "Saturn/iconPowers_track": ["iridescent"],
 
-    "Ukraine/iconPowers_UK": ["very_rare"],
-    "Ukraine/iconPowers_UK_chainBreak": ["very_rare"],
+    "Sweden/iconPowers_yamaokasWrath": ["iridescent"],
+    "Sweden/iconPowers_yamaokasWrath_demon": ["iridescent"],
 
-    "Umbra/iconPowers_quantumInstantiation": ["very_rare"],
+    "Ukraine/iconPowers_UK": ["iridescent"],
+    "Ukraine/iconPowers_UK_chainBreak": ["iridescent"],
 
-    "Wales/iconPowers_Wales_ritesOfJudgement": ["very_rare"],
+    "Umbra/iconPowers_quantumInstantiation": ["iridescent"],
 
-    "Wormhole/iconPowers_hiddenPursuit_active": ["very_rare"],
-    "Wormhole/iconPowers_hiddenPursuit_inactive": ["very_rare"],
+    "Wales/iconPowers_Wales_ritesOfJudgement": ["iridescent"],
+
+    "Wormhole/iconPowers_hiddenPursuit_active": ["iridescent"],
+    "Wormhole/iconPowers_hiddenPursuit_inactive": ["iridescent"],
 
     "Yemen/iconPowers_K21": ["halloween"],
 
-    "Yerkes/iconPowers_K34": ["very_rare"],
-    "Yerkes/iconPowers_K34_TipToe": ["very_rare"]
+    "Yerkes/iconPowers_K34": ["iridescent"],
+    "Yerkes/iconPowers_K34_TipToe": ["iridescent"]
   },
 
   "StatusEffects": {
