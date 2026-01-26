@@ -2695,54 +2695,54 @@
   },
 
   "Powers": {
-    "Applepie/iconPowers_AOE_Projectile": ["iridescent"],
-    "Applepie/iconPowers_ChargeUVX_K35": ["iridescent"],
-    "Applepie/iconPowers_CreateHallucination_K35": ["iridescent"],
-    "Applepie/iconPowers_LaunchUVX_K35": ["iridescent"],
-    "Applepie/iconPowers_Teleport_K35": ["iridescent"],
+    "Applepie/iconPowers_AOE_Projectile": ["iridescent", "power_bezel_template#A144C9"],
+    "Applepie/iconPowers_ChargeUVX_K35": ["iridescent", "power_bezel_template#A144C9"],
+    "Applepie/iconPowers_CreateHallucination_K35": ["iridescent", "power_bezel_template#A144C9"],
+    "Applepie/iconPowers_LaunchUVX_K35": ["iridescent", "power_bezel_template#A144C9"],
+    "Applepie/iconPowers_Teleport_K35": ["iridescent", "power_bezel_template#A144C9"],
 
-    "Aurora/iconPowers_bloodBond_01": ["iridescent"],
-    "Aurora/iconPowers_bloodBond_02": ["iridescent"],
-    "Aurora/iconPowers_bloodBond_03": ["iridescent"],
+    "Aurora/iconPowers_bloodBond_01": ["iridescent", "power_bezel_template#CD4B00"],
+    "Aurora/iconPowers_bloodBond_02": ["iridescent", "power_bezel_template#CD4B00"],
+    "Aurora/iconPowers_bloodBond_03": ["iridescent", "power_bezel_template#CD4B00"],
 
-    "Cannibal/iconPowers_bubbasChainsaw": ["iridescent"],
-    "Cannibal/iconPowers_Tantrum": ["iridescent"],
+    "Cannibal/iconPowers_bubbasChainsaw": ["iridescent", "power_bezel_template#C4C372"],
+    "Cannibal/iconPowers_Tantrum": ["iridescent", "power_bezel_template#74734B"],
 
-    "Churros/iconPowers_DispellingSphere": ["iridescent"],
-    "Churros/iconPowers_FlightoftheDamned": ["iridescent"],
-    "Churros/iconPowers_Fly": ["iridescent"],
-    "Churros/iconPowers_MageHand": ["iridescent"],
-    "Churros/iconPowers_SpellSelection_DispellingSphere": ["iridescent"],
-    "Churros/iconPowers_SpellSelection_FlightoftheDamned": ["iridescent"],
-    "Churros/iconPowers_SpellSelection_Fly": ["iridescent"],
-    "Churros/iconPowers_SpellSelection_MageHand": ["iridescent"],
-    "Churros/iconPowers_VileDarkness": ["iridescent"],
+    "Churros/iconPowers_DispellingSphere": ["iridescent", "power_bezel_template#001FAC"],
+    "Churros/iconPowers_FlightoftheDamned": ["iridescent", "power_bezel_template#4D0073"],
+    "Churros/iconPowers_Fly": ["iridescent", "power_bezel_template#6EF0FF"],
+    "Churros/iconPowers_MageHand": ["iridescent", "power_bezel_template#AC0062"],
+    "Churros/iconPowers_SpellSelection_DispellingSphere": ["iridescent", "power_bezel_template#001FAC"],
+    "Churros/iconPowers_SpellSelection_FlightoftheDamned": ["iridescent", "power_bezel_template#4D0073"],
+    "Churros/iconPowers_SpellSelection_Fly": ["iridescent", "power_bezel_template#6EF0FF"],
+    "Churros/iconPowers_SpellSelection_MageHand": ["iridescent", "power_bezel_template#AC0062"],
+    "Churros/iconPowers_VileDarkness": ["iridescent", "power_bezel_template#946914"],
 
-    "Comet/iconPowers_Showstopper_01": ["iridescent"],
-    "Comet/iconPowers_Showstopper_02": ["iridescent"],
-    "Comet/iconPowers_Showstopper_03": ["iridescent"],
+    "Comet/iconPowers_Showstopper_01": ["iridescent", "power_bezel_template#3694FF"],
+    "Comet/iconPowers_Showstopper_02": ["iridescent", "power_bezel_template#0077FF"],
+    "Comet/iconPowers_Showstopper_03": ["iridescent", "power_bezel_template#FF006F"],
 
-    "DLC2/T_UI_iconPowers_chaser": ["iridescent"],
-    "DLC2/T_UI_iconPowers_evilWithin": ["iridescent"],
-    "DLC2/T_UI_iconPowers_lungeAttack": ["iridescent"],
-    "DLC2/T_UI_iconPowers_stalk": ["iridescent"],
-    "DLC2/T_UI_iconPowers_stalker": ["iridescent"],
+    "DLC2/T_UI_iconPowers_chaser": ["iridescent", "power_bezel_template#B08181"],
+    "DLC2/T_UI_iconPowers_evilWithin": ["iridescent", "power_bezel_template#FF0044"],
+    "DLC2/T_UI_iconPowers_lungeAttack": ["iridescent", "power_bezel_template#FF0000"],
+    "DLC2/T_UI_iconPowers_stalk": ["iridescent", "power_bezel_template#6E6E6E"],
+    "DLC2/T_UI_iconPowers_stalker": ["iridescent", "power_bezel_template#B08181"],
 
-    "DLC3/iconPowers_blackenedCatalyst": ["iridescent"],
+    "DLC3/iconPowers_blackenedCatalyst": ["iridescent", "power_bezel_template#2A1F18"],
 
     "DLC4/iconPowers_cartersSpark": ["very_rare","power_bezel_template#00FFFF"],
 
-    "DLC5/iconPowers_huntingHatchets": ["iridescent"],
+    "DLC5/iconPowers_huntingHatchets": ["iridescent", "power_bezel_template#4C2424"],
 
-    "Eclair/iconPowers_K37_BatForm": ["iridescent"],
-    "Eclair/iconPowers_K37_CastHellfire": ["iridescent"],
-    "Eclair/iconPowers_K37_ChargeHellfire": ["iridescent"],
-    "Eclair/iconPowers_K37_ReadyTeleport": ["iridescent"],
-    "Eclair/iconPowers_K37_Shapeshift": ["iridescent"],
-    "Eclair/iconPowers_K37_Teleport": ["iridescent"],
-    "Eclair/iconPowers_K37_VampireForm": ["iridescent"],
-    "Eclair/iconPowers_K37_WolfForm": ["iridescent"],
-    "Eclair/iconPowers_K37_WolfPounce": ["iridescent"],
+    "Eclair/iconPowers_K37_BatForm": ["iridescent", "power_bezel_template#15183B"],
+    "Eclair/iconPowers_K37_CastHellfire": ["iridescent", "power_bezel_template#FF6A00"],
+    "Eclair/iconPowers_K37_ChargeHellfire": ["iridescent", "power_bezel_template#653818"],
+    "Eclair/iconPowers_K37_ReadyTeleport": ["iridescent", "power_bezel_template#15183B"],
+    "Eclair/iconPowers_K37_Shapeshift": ["iridescent", "power_bezel_template#AFAFAF"],
+    "Eclair/iconPowers_K37_Teleport": ["iridescent", "power_bezel_template#C7926C"],
+    "Eclair/iconPowers_K37_VampireForm": ["iridescent", "power_bezel_template#770000"],
+    "Eclair/iconPowers_K37_WolfForm": ["iridescent", "power_bezel_template#463A31"],
+    "Eclair/iconPowers_K37_WolfPounce": ["iridescent", "power_bezel_template#69462A"],
 
     "Eclipse/iconPowers_T-virus": ["iridescent","power_bezel_template#0000FF"],
     "Eclipse/iconPowers_T-virus1": ["iridescent","power_bezel_template#0000FF"],
@@ -2756,7 +2756,7 @@
     "England/T_UI_iconPowers_SnareSwitch": ["iridescent"],
     "England/T_UI_iconPowers_SnareTeleport": ["iridescent"],
 
-    "Finland/iconPowers_reverseBearTrap": ["iridescent"],
+    "Finland/iconPowers_reverseBearTrap": ["iridescent", "power_bezel_template#463A31"],
 
     "Gelato/iconPowers_DashCommand_K38": ["iridescent"],
     "Gelato/iconPowers_DashRedirect_K38": ["iridescent"],
@@ -2766,12 +2766,12 @@
     "Gelato/iconPowers_RecallDog_K38": ["iridescent"],
     "Gelato/iconPowers_SwapControl_K38": ["iridescent"],
 
-    "Gemini/iconPowers_summonsOfPain": ["iridescent"],
+    "Gemini/iconPowers_summonsOfPain": ["iridescent", "power_bezel_template#007BAF"],
 
-    "Guam/iconPowers_gasBomb": ["iridescent"],
-    "Guam/iconPowers_gasBomb2": ["iridescent"],
+    "Guam/iconPowers_gasBomb": ["iridescent", "power_bezel_template#900098"],
+    "Guam/iconPowers_gasBomb2": ["iridescent", "power_bezel_template#FFDD00"],
 
-    "Haiti/iconPowers_yamaokasHaunting": ["iridescent"],
+    "Haiti/iconPowers_yamaokasHaunting": ["iridescent", "power_bezel_template#8FFFF0"],
 
     "Icecream/iconPowers_AimEnragedMode_K39": ["iridescent"],
     "Icecream/iconPowers_AimKaguneLeap_K39": ["iridescent"],
@@ -2779,71 +2779,71 @@
     "Icecream/iconPowers_FireEnragedMode_K39": ["iridescent"],
     "Icecream/iconPowers_FireKaguneLeap_K39": ["iridescent"],
 
-    "iconPowers_bell": ["iridescent"],
+    "iconPowers_bell": ["iridescent", "power_bezel_template#E4C498"],
 
-    "iconPowers_breath": ["iridescent"],
+    "iconPowers_breath": ["iridescent", "power_bezel_template#FF7B00"],
 
-    "iconPowers_chainsaw": ["iridescent"],
+    "iconPowers_chainsaw": ["iridescent", "power_bezel_template#657579"],
 
-    "iconPowers_chainsawCharge": ["iridescent"],
+    "iconPowers_chainsawCharge": ["iridescent", "power_bezel_template#72B2C4"],
 
-    "iconPowers_trap": ["iridescent"],
+    "iconPowers_trap": ["iridescent", "power_bezel_template#69492C"],
 
-    "Ion/T_iconPowers_birdsOfTorment": ["iridescent"],
+    "Ion/T_iconPowers_birdsOfTorment": ["iridescent", "power_bezel_template#0B0A2F"],
 
-    "Kenya/iconPowers_feralFrenzy": ["iridescent"],
+    "Kenya/iconPowers_feralFrenzy": ["iridescent", "power_bezel_template#560000"],
 
-    "Kepler/iconPowers_delugeOfFear": ["iridescent"],
-    "Kepler/iconPowers_delugeOfFear2": ["iridescent"],
+    "Kepler/iconPowers_delugeOfFear": ["iridescent", "power_bezel_template#AEE5EA"],
+    "Kepler/iconPowers_delugeOfFear2": ["iridescent", "power_bezel_template#AEE5EA"],
 
-    "Ketchup/iconPowers_ProjectileGrab_K40": ["iridescent"],
-    "Ketchup/iconPowers_RetrieveAxe_K40": ["iridescent"],
-    "Ketchup/iconPowers_ThrowAxe_K40": ["iridescent"],
+    "Ketchup/iconPowers_ProjectileGrab_K40": ["iridescent", "power_bezel_template#C99B1C"],
+    "Ketchup/iconPowers_RetrieveAxe_K40": ["iridescent", "power_bezel_template#C99B1C"],
+    "Ketchup/iconPowers_ThrowAxe_K40": ["iridescent", "power_bezel_template#C99B1C"],
 
-    "Mali/iconPowers_vilePurge": ["iridescent"],
+    "Mali/iconPowers_vilePurge": ["iridescent", "power_bezel_template#00AA11"],
 
-    "Maple/T_UI_iconPowers_GoLow_K41": ["iridescent"],
-    "Maple/T_UI_iconPowers_HeadForm_K41": ["iridescent"],
-    "Maple/T_UI_iconPowers_HumanForm_K41": ["iridescent"],
-    "Maple/T_UI_iconPowers_Projectile_K41": ["iridescent"],
+    "Maple/T_UI_iconPowers_GoLow_K41": ["iridescent", "power_bezel_template#802400"],
+    "Maple/T_UI_iconPowers_HeadForm_K41": ["iridescent", "power_bezel_template#C83900"],
+    "Maple/T_UI_iconPowers_HumanForm_K41": ["iridescent", "power_bezel_template#005008"],
+    "Maple/T_UI_iconPowers_Projectile_K41": ["iridescent", "power_bezel_template#9D2C00"],
 
-    "Meteor/T_iconPowers_ReignofDarkness": ["iridescent"],
+    "Meteor/T_iconPowers_ReignofDarkness": ["iridescent", "power_bezel_template#554925"],
 
-    "Oman/iconPowers_ghostPower_activated": ["iridescent"],
-    "Oman/iconPowers_ghostPower_available": ["iridescent"],
+    "Oman/iconPowers_ghostPower_activated": ["iridescent", "power_bezel_template#5B3A70"],
+    "Oman/iconPowers_ghostPower_available": ["iridescent", "power_bezel_template#2A1D32"],
 
-    "Orion/iconPowers_virulentBound": ["iridescent"],
+    "Orion/iconPowers_virulentBound": ["iridescent", "power_bezel_template#38554C"],
 
-    "Poutine/T_UI_iconPowers_EnterUpsideDown": ["iridescent"],
-    "Poutine/T_UI_iconPowers_FocusAttack": ["iridescent"],
-    "Poutine/T_UI_iconPowers_GroundAttack": ["iridescent"],
+    "Poutine/T_UI_iconPowers_EnterUpsideDown": ["blood_moon", "power_bezel"],
+    "Poutine/T_UI_iconPowers_FocusAttack": ["blood_moon", "power_bezel"],
+    "Poutine/T_UI_iconPowers_GroundAttack": ["blood_moon", "power_bezel"],
 
-    "Qatar/iconPowers_ofTheAbyss": ["iridescent"],
+    "Qatar/iconPowers_ofTheAbyss": ["blood_moon", "power_bezel_template#953939"],
 
-    "Quantum/T_iconPowers_Assassin": ["iridescent"],
-    "Quantum/T_iconPowers_Executioner": ["iridescent"],
-    "Quantum/T_iconPowers_Jailer": ["iridescent"],
+    "Quantum/T_iconPowers_Assassin": ["iridescent", "power_bezel_template#A0FFFB"],
+    "Quantum/T_iconPowers_Executioner": ["iridescent", "power_bezel_template#A0FFFB"],
+    "Quantum/T_iconPowers_Jailer": ["iridescent", "power_bezel_template#A0FFFB"],
 
-    "Saturn/iconPowers_drones": ["iridescent"],
-    "Saturn/iconPowers_track": ["iridescent"],
+    "Saturn/iconPowers_drones": ["iridescent", "power_bezel_template#FF9249"],
+    "Saturn/iconPowers_track": ["iridescent", "power_bezel_template#F9FF43"],
 
-    "Sweden/iconPowers_yamaokasWrath": ["iridescent"],
-    "Sweden/iconPowers_yamaokasWrath_demon": ["iridescent"],
+    "Sweden/iconPowers_yamaokasWrath": ["iridescent", "power_bezel_template#CD6969"],
+    "Sweden/iconPowers_yamaokasWrath_demon": ["iridescent", "power_bezel_template#FF2222"],
 
-    "Ukraine/iconPowers_UK": ["iridescent"],
-    "Ukraine/iconPowers_UK_chainBreak": ["iridescent"],
+    "Ukraine/iconPowers_UK": ["iridescent", "power_bezel_template#622500"],
+    "Ukraine/iconPowers_UK_chainBreak": ["iridescent", "power_bezel_template#E35700"],
 
-    "Umbra/iconPowers_quantumInstantiation": ["iridescent"],
+    "Umbra/iconPowers_quantumInstantiation": ["iridescent", "power_bezel_template#00E353"],
 
-    "Wales/iconPowers_Wales_ritesOfJudgement": ["iridescent"],
+    "Wales/iconPowers_Wales_ritesOfJudgement": ["iridescent", "power_bezel_template#B33114"],
 
-    "Wormhole/iconPowers_hiddenPursuit_active": ["iridescent"],
-    "Wormhole/iconPowers_hiddenPursuit_inactive": ["iridescent"],
+    "Wormhole/iconPowers_hiddenPursuit_active": ["iridescent", "power_bezel_template#252525"],
+    "Wormhole/iconPowers_hiddenPursuit_inactive": ["iridescent", "power_bezel_template#BFBFBF"],
 
-    "Yemen/iconPowers_K21": ["halloween"],
+    "Yemen/iconPowers_K21": ["halloween", "power_bezel_template#FF6200"],
 
-    "Yerkes/iconPowers_K34": ["iridescent"],
-    "Yerkes/iconPowers_K34_TipToe": ["iridescent"]
+    "Yerkes/iconPowers_K34": ["iridescent", "power_bezel_template#FFB689"],
+    "Yerkes/iconPowers_K34_TipToe": ["iridescent", "power_bezel_template#433933"]
   },
 
   "StatusEffects": {
