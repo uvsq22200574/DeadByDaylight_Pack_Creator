@@ -92,6 +92,7 @@ pub fn hex_to_rgb(hex: &str) -> Result<(u8, u8, u8), String> {
 pub fn colorize_grayscale_image(
     gray_img: &ImageBuffer<image::LumaA<u8>, Vec<u8>>,
     hex_color: &str,
+    threshold: u8,
 ) -> Result<ImageBuffer<Rgba<u8>, Vec<u8>>, String> {
     let (r_tint, g_tint, b_tint) = hex_to_rgb(hex_color)?;
 
@@ -99,16 +100,21 @@ pub fn colorize_grayscale_image(
         gray_img.width(),
         gray_img.height(),
         |x, y| {
-            let gray_pixel = gray_img.get_pixel(x, y);
-            let gray_val = gray_pixel[0];
-            let alpha = gray_pixel[1];
+            let p = gray_img.get_pixel(x, y);
+            let gray = p[0];
+            let alpha = p[1];
 
-            Rgba([
-                (gray_val as u16 * r_tint as u16 / 255) as u8,
-                (gray_val as u16 * g_tint as u16 / 255) as u8,
-                (gray_val as u16 * b_tint as u16 / 255) as u8,
-                alpha,
-            ])
+            if gray < threshold {
+                Rgba([gray, gray, gray, alpha])
+            } else {
+                let scale = gray as u16;
+                Rgba([
+                    (scale * r_tint as u16 / 255) as u8,
+                    (scale * g_tint as u16 / 255) as u8,
+                    (scale * b_tint as u16 / 255) as u8,
+                    alpha,
+                ])
+            }
         },
     ))
 }
@@ -175,7 +181,7 @@ pub fn stack_layers(
                 // Recolor grayscale layer if HEX specified
                 if let Some(hex) = hex_color {
                     let gray_img = layer_img.to_luma_alpha8();
-                    if let Ok(colored) = colorize_grayscale_image(&gray_img, hex) {
+                    if let Ok(colored) = colorize_grayscale_image(&gray_img, hex, 37) {
                         processed_img = DynamicImage::ImageRgba8(colored);
                     }
                 }

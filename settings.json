@@ -13,10 +13,10 @@
         "Packs": "",
         "Perks": "Layers/perks",
         "Powers": "Layers/addons_items_powers",
-        "StatusEffects": "",
+        "StatusEffects": "Layers/status_effects",
         "StoreTabs": ""
     },
-    "output_path": "~/.steam/debian-installation/steamapps/common/Dead by Daylight/DeadByDaylight/Content/UI/Icons/",
+    "output_path": "",
     "input_path": ""
     
 }
