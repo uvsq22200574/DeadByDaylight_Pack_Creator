@@ -9,7 +9,6 @@ pub enum Platform {
     Unknown,
 }
 
-
 /// Detects the OS from which the binary is executed from
 pub fn detect_platform() -> Platform {
     match std::env::consts::OS {
@@ -19,7 +18,6 @@ pub fn detect_platform() -> Platform {
         _ => Platform::Unknown,
     }
 }
-
 
 /// Decide if a path given is compatible with the given platform
 pub fn is_path_compatible(path: &Path, platform: Platform) -> bool {
@@ -38,12 +36,7 @@ pub fn is_path_compatible(path: &Path, platform: Platform) -> bool {
     }
 }
 
-
-pub fn resolve_or_default(
-    provided: Option<&str>,
-    default: &Path,
-    platform: Platform,
-) -> PathBuf {
+pub fn resolve_or_default(provided: Option<&str>, default: &Path, platform: Platform) -> PathBuf {
     let candidate = provided
         .filter(|s| !s.is_empty())
         .map(PathBuf::from)

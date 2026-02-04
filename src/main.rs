@@ -1,3 +1,4 @@
+use anyhow::Context;
 use colored::Colorize;
 use image::imageops::overlay;
 use rayon::prelude::*;
@@ -22,16 +23,18 @@ struct Task {
     element_type: String,
     filename: String,
     layers: Vec<String>,
-    layer_folder: PathBuf,
+    layer_folder: Option<PathBuf>,
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+fn main() -> anyhow::Result<()> {
     // Measure processing time
     let start_time = Instant::now();
 
     // Load settings.json
-    let settings_file = File::open("settings.json")?;
-    let settings: Settings = serde_json::from_reader(settings_file)?;
+    let settings_file =
+        File::open("settings.json").context("settings.json must exist in the working directory")?;
+    let settings: Settings =
+        serde_json::from_reader(settings_file).context("Failed to parse settings.json")?;
 
     let platform = helper::detect_platform();
     println!("{}", format!("Platform: {:?}", platform).yellow());
@@ -44,15 +47,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     );
 
     // Check if the input folder exists, else return an error
-    if !source_folder.exists() || !source_folder.is_dir() {
-        return Err(format!(
-            "Input folder does not exist or is not a directory: {}",
-            source_folder.display()
-        )
-        .into());
-    }
+    anyhow::ensure!(
+        source_folder.exists() && source_folder.is_dir(),
+        "Input folder does not exist or is not a directory: {}",
+        source_folder.display()
+    );
 
-    println!("{}", format!("Input folder: {}", source_folder.display()).yellow());
+    println!(
+        "{}",
+        format!("Input folder: {}", source_folder.display()).yellow()
+    );
 
     // Resolve output folder (use default if missing or empty)
     let output_folder = helper::resolve_or_default(
@@ -62,11 +66,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     );
     let output_folder = helper::resolve_full_path(&output_folder);
     std::fs::create_dir_all(&output_folder)?;
-    println!("{}", format!("Output folder: {}", output_folder.display()).yellow());
+    println!(
+        "{}",
+        format!("Output folder: {}", output_folder.display()).yellow()
+    );
 
     // Load elements_layering.json
-    let file = File::open("elements_layering.json")?;
-    let data: GameFolders = serde_json::from_reader(file)?;
+    let file = File::open("elements_layering.json")
+        .context("elements_layering.json must exist in the working directory")?;
+
+    let data: GameFolders =
+        serde_json::from_reader(file).context("Failed to parse elements_layering.json")?;
 
     // Collect tasks
     let mut tasks = Vec::new();
@@ -87,8 +97,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let layer_folder_path = helper::resolve_full_path(&layer_folder_path);
         println!(
             "{}",
-            format!("Layer folder for '{}': {}", element_type, layer_folder_path.display())
-                .yellow()
+            format!(
+                "Layer folder for '{}': {}",
+                element_type,
+                layer_folder_path.display()
+            )
+            .yellow()
         );
 
         for (filename, layers) in elements {
@@ -96,7 +110,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 element_type: element_type.clone(),
                 filename: filename.clone(),
                 layers: layers.clone(),
-                layer_folder: layer_folder_path.clone(),
+                layer_folder: Some(layer_folder_path.clone()),
             });
         }
     }
@@ -135,8 +149,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let mut final_img = image::DynamicImage::new_rgba8(item_img.width(), item_img.height());
 
-        if !layer_folder.as_os_str().is_empty() {
-            let missing = helper::stack_layers(&mut final_img, &item_img_path, &layer_folder, layers);
+        if let Some(layer_folder) = layer_folder {
+            let missing =
+                helper::stack_layers(&mut final_img, &item_img_path, layer_folder, layers);
             let mut missing_lock = missing_layers.lock().unwrap();
             missing_lock.extend(missing);
         }
@@ -146,7 +161,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let element_folder_name = Path::new(element_type)
             .file_name()
             .unwrap_or_else(|| std::ffi::OsStr::new("Unknown"));
-        let output_path = output_folder.join(element_folder_name).join(format!("{filename}.png"));
+        let output_path = output_folder
+            .join(element_folder_name)
+            .join(format!("{filename}.png"));
 
         if let Some(parent) = output_path.parent() {
             let _ = std::fs::create_dir_all(parent);
@@ -176,7 +193,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let elapsed = start_time.elapsed();
-    println!("{}",format!("Total processing time: {:.2?}", elapsed).cyan());
+    println!(
+        "{}",
+        format!("Total processing time: {:.2?}", elapsed).cyan()
+    );
 
     Ok(())
 }
