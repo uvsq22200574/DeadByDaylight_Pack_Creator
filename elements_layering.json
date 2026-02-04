@@ -150,42 +150,28 @@
     "Applepie/K35_TheUnknown_Portrait": ["none"],
     "Applepie/S41_SableWard_Portrait": ["none"],
 
-    "Ash/MS2_charSelect_portrait": ["none"],
     "Ash/S17_AshleyJWilliams_Portrait": ["none"],
 
-    "Aurora/K22_charSelect_portrait": ["none"],
     "Aurora/K22_TheTwins_Portrait": ["none"],
-    "Aurora/S24_charSelect_portrait": ["none"],
     "Aurora/S24_ElodieRakoto_Portrait": ["none"],
 
-    "Cannibal/CA_charSelect_portrait": ["none"],
     "Cannibal/K09_TheCannibal_Portrait": ["none"],
 
     "Churros/K36_TheLich_Portrait": ["none"],
     "Churros/S42_TheTroupe_Portrait": ["none"],
 
-    "Comet/K23_charSelect_portrait": ["none"],
     "Comet/K23_TheTrickster_Portrait": ["none"],
-    "Comet/S25_charSelect_portrait": ["none"],
     "Comet/S25_YunJinLee_Portrait": ["none"],
 
     "DLC2/K06_TheShape_Portrait": ["none"],
-    "DLC2/LS_charSelect_portrait": ["none"],
     "DLC2/S06_LaurieStrode_Portrait": ["none"],
-    "DLC2/SH_charSelect_portrait": ["none"],
 
-    "DLC3/AV_charSelect_portrait": ["none"],
-    "DLC3/HA_charSelect_portrait": ["none"],
     "DLC3/K05_TheHag_Portrait": ["none"],
     "DLC3/S07_AceVisconti_Portrait": ["none"],
 
-    "DLC4/DO_charSelect_portrait": ["none"],
-    "DLC4/FM_charSelect_portrait": ["none"],
     "DLC4/K07_TheDoctor_Portrait": ["none"],
     "DLC4/S09_FengMin_Portrait": ["none"],
 
-    "DLC5/BE_charSelect_portrait": ["none"],
-    "DLC5/DK_charSelect_portrait": ["none"],
     "DLC5/K08_TheHuntress_Portrait": ["none"],
     "DLC5/S10_DavidKing_Portrait": ["none"],
 
@@ -194,50 +180,35 @@
     "Eclair/K37_TheDracula_Portrait": ["none"],
     "Eclair/S44_TrevorBelmont_Portrait": ["none"],
 
-    "Eclipse/K24_charSelect_portrait": ["none"],
     "Eclipse/K24_TheNemesis_Portrait": ["none"],
-    "Eclipse/S26_charSelect_portrait": ["none"],
     "Eclipse/S26_JillValentine_Portrait": ["none"],
-    "Eclipse/S27_charSelect_portrait": ["none"],
     "Eclipse/S27_LeonSKennedy_Portrait": ["none"],
 
     "empty": ["none"],
 
     "England/K10_TheNightmare_Portrait": ["none"],
-    "England/QS_charSelect_portrait": ["none"],
     "England/S11_QuentinSmith_Portrait": ["none"],
-    "England/SD_charSelect_portrait": ["none"],
 
-    "Finland/FK_charSelect_portrait": ["none"],
-    "Finland/FS_charSelect_portrait": ["none"],
     "Finland/K11_ThePig_Portrait": ["none"],
     "Finland/S12_DetectiveDavidTapp_Portrait": ["none"],
 
     "Gelato/K38_TheHoundmaster_Portrait": ["none"],
     "Gelato/S45_TaurieCain_Portrait": ["none"],
 
-    "Gemini/K25_charSelect_portrait": ["none"],
     "Gemini/K25_TheCenobite_Portrait": ["none"],
 
-    "Guam/GK_charSelect_portrait": ["none"],
-    "Guam/GS_charSelect_portrait": ["none"],
     "Guam/K12_TheClown_Portrait": ["none"],
     "Guam/S13_KateDenson_Portrait": ["none"],
 
-    "Haiti/AF_charSelect_portrait": ["none"],
-    "Haiti/HK_charSelect_portrait": ["none"],
     "Haiti/K13_TheSpirit_Portrait": ["none"],
     "Haiti/S14_AdamFrancis_Portrait": ["none"],
 
-    "Hubble/S28_charSelect_portrait": ["none"],
     "Hubble/S28_MikaelaReid_Portrait": ["none"],
 
     "Icecream/K39_TheGhoul_Portrait": ["none"],
 
     "Ion/K26_TheArtist_Portrait": ["none"],
     "Ion/S29_JonahVasquez_Portrait": ["none"],
-    "Ion/T_K26_charSelect_portrait": ["none"],
-    "Ion/T_S29_charSelect_portrait": ["none"],
 
     "Jerky/S46_OrelaRose_Portrait": ["none"],
 
@@ -250,58 +221,42 @@
     "K04_TheNurse_Portrait": ["none"],
 
     "Kenya/K14_TheLegion_Portrait": ["none"],
-    "Kenya/KK_charSelect_portrait": ["none"],
-    "Kenya/KS_charSelect_portrait": ["none"],
     "Kenya/S15_JeffJohansen_Portrait": ["none"],
 
-    "Kepler/K27_charSelect_portrait": ["none"],
     "Kepler/K27_TheOnryo_Portrait": ["none"],
-    "Kepler/S30_charSelect_portrait": ["none"],
     "Kepler/S30_YoichiAsakawa_Portrait": ["none"],
 
     "Ketchup/K40_TheAnimatronic_Portrait": ["none"],
 
-    "L4D/BO_charSelect_portrait": ["none"],
     "L4D/S08_WilliamBillOverbeck_Portrait": ["none"],
 
     "Lasagna/S47_RickGrimes_Portrait": ["none"],
     "Lasagna/S48_MichonneGrimes_Portrait": ["none"],
 
     "Mali/K15_ThePlague_Portrait": ["none"],
-    "Mali/MK_charSelect_portrait": ["none"],
-    "Mali/MS_charSelect_portrait": ["none"],
     "Mali/S16_JaneRomero_Portrait": ["none"],
 
     "Maple/T_UI_K41_TheKrasue_Portrait": ["none"],
     "Maple/T_UI_S49_VeeBoonyasak_Portrait": ["none"],
 
-    "Meteor/K28_charSelect_portrait": ["none"],
     "Meteor/K28_TheDredge_Portrait": ["none"],
-    "Meteor/S31_charSelect_portrait": ["none"],
     "Meteor/S31_HaddieKaur_Portrait": ["none"],
 
     "Oman/K16_TheGhostface_Portrait": ["none"],
-    "Oman/OK_charSelect_portrait": ["none"],
 
-    "Orion/K29_charSelect_portrait": ["none"],
     "Orion/K29_TheMasterMind_Portrait": ["none"],
     "Orion/S32_AdaWong_Portrait": ["none"],
-    "Orion/S32_charSelect_portrait": ["none"],
-    "Orion/S33_charSelect_portrait": ["none"],
     "Orion/S33_RebeccaChambers_Portrait": ["none"],
 
     "Poutine/T_UI_K42_TheFirst_Portrait": [""],
+    "Poutine/T_UI_S50_DustinHenderson_Portrait": [""],
+    "Poutine/T_UI_S51_Eleven_Portrait": [""],
 
     "Qatar/K17_TheDemogorgon_Portrait": ["none"],
-    "Qatar/QF_charSelect_portrait": ["none"],
-    "Qatar/QK_charSelect_portrait": ["none"],
-    "Qatar/QM_charSelect_portrait": ["none"],
     "Qatar/S18_SteveHarrington_Portrait": ["none"],
-    "Qatar/S19_NancyWheeler_Portrait": ["none"],
+    "Qatar/T_UI_S19_NancyWheeler_Portrait": [""],
 
-    "Quantum/K30_charSelect_portrait": ["none"],
     "Quantum/K30_TheKnight_Portrait": ["none"],
-    "Quantum/S34_charSelect_portrait": ["none"],
     "Quantum/S34_VittorioToscano_Portrait": ["none"],
 
     "S01_DwightFairfield_Portrait": ["none"],
@@ -320,32 +275,22 @@
 
     "Sweden/K18_TheOni_Portrait": ["none"],
     "Sweden/S20_YuiKimura_Portrait": ["none"],
-    "Sweden/SK_charSelect_portrait": ["none"],
-    "Sweden/SS_charSelect_portrait": ["none"],
 
     "Ukraine/K19_TheDeathslinger_Portrait": ["none"],
     "Ukraine/S21_ZarinaKassir_Portrait": ["none"],
-    "Ukraine/UK_charSelect_portrait": ["none"],
-    "Ukraine/US_charSelect_portrait": ["none"],
 
-    "Umbra/K32_charSelect_portrait": ["none"],
     "Umbra/K32_TheSingularity_Portrait": ["none"],
-    "Umbra/S37_charSelect_portrait": ["none"],
     "Umbra/S37_GabrielSoma_Portrait": ["none"],
 
     "Venus/S38_NicolasCage_Portrait": ["none"],
 
-    "Wales/K20_charSelect_portrait": ["none"],
     "Wales/K20_TheExecutioner_Portrait": ["none"],
-    "Wales/S22_charSelect_portrait": ["none"],
     "Wales/S22_CherylMason_Portrait": ["none"],
 
     "Wormhole/K33_TheXenomorph_Portrait": ["none"],
     "Wormhole/S39_EllenRipley_Portrait": ["none"],
 
-    "Yemen/K21_charSelect_portrait": ["none"],
     "Yemen/K21_TheBlight_Portrait": ["none"],
-    "Yemen/S23_charSelect_portrait": ["none"],
     "Yemen/S23_FelixRichter_Portrait": ["none"],
 
     "Yerkes/K34_TheYerkes_Portrait": ["none"],
