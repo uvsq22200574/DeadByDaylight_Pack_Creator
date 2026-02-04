@@ -2867,15 +2867,15 @@
 
     "iconStatusEffects_exhausted": ["background_template#FF0000"],
 
-    "iconStatusEffects_expertise": ["background_template#00FF00"],
+    "iconStatusEffects_expertise": ["background_template#6112A5"],
 
     "iconStatusEffects_exposed": ["background_template#FF0000"],
 
-    "iconStatusEffects_glyph": ["background_template#6112A5"],
+    "iconStatusEffects_glyph": ["background_template#FF0000"],
 
     "iconStatusEffects_healing": ["background_template#6112A5"],
 
-    "iconStatusEffects_hearing": ["none"],
+    "iconStatusEffects_hearing": ["background_template#FF0000"],
 
     "iconStatusEffects_hindered": ["background_template#FF0000"],
 
@@ -2883,7 +2883,7 @@
 
     "iconStatusEffects_killerEndurance": ["background_template#FFFF00"],
 
-    "iconStatusEffects_luck": ["background_template#00FF00"],
+    "iconStatusEffects_luck": ["background_template#6112A5"],
 
     "iconStatusEffects_madness": ["background_template#FF0000"],
 
@@ -2893,7 +2893,7 @@
 
     "iconStatusEffects_oblivious": ["background_template#FF0000"],
 
-    "iconStatusEffects_progressionSpeed": ["background_template#00FF00"],
+    "iconStatusEffects_progressionSpeed": ["background_template#6112A5"],
 
     "iconStatusEffects_repairing": ["background_template#6112A5"],
 
@@ -2905,7 +2905,7 @@
 
     "iconStatusEffects_skillCheckProbability": ["background_template#6112A5"],
 
-    "iconStatusEffects_skills": ["none"],
+    "iconStatusEffects_skills": ["background_template#6112A5"],
 
     "iconStatusEffects_sleepPenalty": ["background_template#FF0000"],
 
