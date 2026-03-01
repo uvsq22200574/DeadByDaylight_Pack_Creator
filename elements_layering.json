@@ -259,6 +259,8 @@
     "Quantum/K30_TheKnight_Portrait": ["none"],
     "Quantum/S34_VittorioToscano_Portrait": ["none"],
 
+    "Quiche/T_UI_S52_KwonTaeYoung_Portrait": ["none"],
+
     "S01_DwightFairfield_Portrait": ["none"],
 
     "S02_MegThomas_Portrait": ["none"],
@@ -598,6 +600,8 @@
     "Qatar/iconFavors_hawkinsNationalLaboratoryID": ["none"],
 
     "Quantum/iconFavors_BeefTallowMixture": ["none"],
+
+    "Quiche/T_UI_iconsFavors_vipWristband": ["none"],
 
     "Spring/iconFavors_bloodshotEye": ["blood_moon"],
 
@@ -2576,6 +2580,10 @@
     "Quantum/iconPerks_PotentialEnergy": ["very_rare"],
     "Quantum/iconPerks_VittoriosGambit": ["uncommon"],
 
+    "Quiche/T_UI_iconsPerks_aPlaceForUs": ["uncommon"],
+    "Quiche/T_UI_iconsPerks_FiveMovesAhead": ["iridescent","entity_claws"],
+    "Quiche/T_UI_iconsPerks_FlowState": ["iridescent","entity_claws"],
+
     "Saturn/iconPerks_BackgroundPlayer": ["iridescent","entity_claws"],
     "Saturn/iconPerks_BloodRush": ["very_rare"],
     "Saturn/iconPerks_CutLoose": ["uncommon"],
@@ -2626,7 +2634,7 @@
     "Wormhole/iconPerks_UltimateWeapon": ["iridescent","entity_claws"],
 
     "Yemen/iconPerks_BuiltToLast": ["very_rare"],
-    "Yemen/iconPerks_DesperateMeasures": ["very_rare"],
+    "Yemen/iconPerks_DesperateMeasures": ["iridescent","entity_claws"],
     "Yemen/iconPerks_DragonsGrip": ["very_rare"],
     "Yemen/iconPerks_HexBloodFavor": ["iridescent","entity_claws"],
     "Yemen/iconPerks_HexUndying": ["iridescent","entity_claws"],
