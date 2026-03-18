@@ -1092,7 +1092,7 @@
     "Churros/iconAddon_TatteredHeadband": ["common"],
     "Churros/iconAddon_TrickstersGlove": ["common"],
 
-    "Comet/icons_Addon_BloodyBoa": ["rare"],
+    "Comet/icons_Addon_BloodyBoa": ["uncommon"],
     "Comet/icons_Addon_CagedHeartShoes": ["uncommon"],
     "Comet/icons_Addon_CutThruUsingle": ["very_rare"],
     "Comet/icons_Addon_DeathThroesCompilation": ["iridescent"],
@@ -1105,7 +1105,7 @@
     "Comet/icons_Addon_KillingPartChords": ["common"],
     "Comet/icons_Addon_LuckyBlade": ["uncommon"],
     "Comet/icons_Addon_MementoBlades": ["common"],
-    "Comet/icons_Addon_OnTargetSingle": ["uncommon"],
+    "Comet/icons_Addon_OnTargetSingle": ["rare"],
     "Comet/icons_Addon_RipperBrace": ["rare"],
     "Comet/icons_Addon_TequilaMoonrock": ["uncommon"],
     "Comet/icons_Addon_TrickBlades": ["very_rare"],
@@ -1866,12 +1866,12 @@
     "Poutine/T_UI_iconAddon_ForgedDeathCertificate": ["rare"],
     "Poutine/T_UI_iconAddon_GuttedSupercom": ["uncommon"],
     "Poutine/T_UI_iconAddon_IridescentSoteriaChip": ["iridescent"],
-    "Poutine/T_UI_iconAddon_Mid-CenturyRadio": ["uncommon"],
+    "Poutine/T_UI_iconAddon_Mid-CenturyRadio": ["common"],
     "Poutine/T_UI_iconAddon_NeckTendril": ["rare"],
     "Poutine/T_UI_iconAddon_OrderlyID": ["common"],
-    "Poutine/T_UI_iconAddon_PizzaGoggles": ["very_rare"],
-    "Poutine/T_UI_iconAddon_RabbitRemains": ["rare"],
-    "Poutine/T_UI_iconAddon_ShatteredWristRocket": ["common"],
+    "Poutine/T_UI_iconAddon_PizzaGoggles": ["rare"],
+    "Poutine/T_UI_iconAddon_RabbitRemains": ["very_rare"],
+    "Poutine/T_UI_iconAddon_ShatteredWristRocket": ["uncommon"],
     "Poutine/T_UI_iconAddon_SmashedCassetteDeck": ["uncommon"],
     "Poutine/T_UI_iconAddon_StainedGlassMural": ["common"],
     "Poutine/T_UI_iconAddon_VictorsRazorBlade": ["rare"],
@@ -2687,7 +2687,7 @@
 
     "DLC4/iconPowers_cartersSpark": ["very_rare","power_bezel_template#00FFFF"],
 
-    "DLC5/iconPowers_huntingHatchets": ["iridescent","power_bezel_template#4C2424"],
+    "DLC5/iconPowers_huntingHatchets": ["iridescent","power_bezel_template#981919"],
 
     "Eclair/iconPowers_K37_BatForm": ["iridescent","power_bezel_template#15183B"],
     "Eclair/iconPowers_K37_CastHellfire": ["iridescent","power_bezel_template#FF6A00"],
@@ -2704,22 +2704,22 @@
     "Eclipse/iconPowers_T-virus2": ["iridescent","power_bezel_template#0000FF"],
     "Eclipse/iconPowers_T-virus3": ["iridescent","power_bezel_template#0000FF"],
 
-    "England/iconPowers_dreamMaster": ["iridescent"],
-    "England/T_UI_iconPowers_BloodyPallet": ["iridescent"],
-    "England/T_UI_iconPowers_ExplodePallet": ["iridescent"],
-    "England/T_UI_iconPowers_Snare": ["iridescent"],
-    "England/T_UI_iconPowers_SnareSwitch": ["iridescent"],
-    "England/T_UI_iconPowers_SnareTeleport": ["iridescent"],
+    "England/iconPowers_dreamMaster": ["iridescent","power_bezel_template#5A5A8E"],
+    "England/T_UI_iconPowers_BloodyPallet": ["iridescent","power_bezel_template#FF9696"],
+    "England/T_UI_iconPowers_ExplodePallet": ["iridescent","power_bezel_template#FF2B2B"],
+    "England/T_UI_iconPowers_Snare": ["iridescent","power_bezel_template#8B8B8B"],
+    "England/T_UI_iconPowers_SnareSwitch": ["iridescent","power_bezel_template#5A5A8E"],
+    "England/T_UI_iconPowers_SnareTeleport": ["iridescent","power_bezel_template#7CCDFF"],
 
     "Finland/iconPowers_reverseBearTrap": ["iridescent","power_bezel_template#463A31"],
 
-    "Gelato/iconPowers_DashCommand_K38": ["iridescent"],
-    "Gelato/iconPowers_DashRedirect_K38": ["iridescent"],
-    "Gelato/iconPowers_DogGuarding_K38": ["iridescent"],
-    "Gelato/iconPowers_DogReturn_K38": ["iridescent"],
-    "Gelato/iconPowers_PatrolCommand_K38": ["iridescent"],
-    "Gelato/iconPowers_RecallDog_K38": ["iridescent"],
-    "Gelato/iconPowers_SwapControl_K38": ["iridescent"],
+    "Gelato/iconPowers_DashCommand_K38": ["iridescent","power_bezel_template#CF0000"],
+    "Gelato/iconPowers_DashRedirect_K38": ["iridescent","power_bezel_template#CFB000"],
+    "Gelato/iconPowers_DogGuarding_K38": ["iridescent","power_bezel_template#B54242"],
+    "Gelato/iconPowers_DogReturn_K38": ["iridescent","power_bezel_template#747474"],
+    "Gelato/iconPowers_PatrolCommand_K38": ["iridescent","power_bezel_template#6FFFB2"],
+    "Gelato/iconPowers_RecallDog_K38": ["iridescent","power_bezel_template#747474"],
+    "Gelato/iconPowers_SwapControl_K38": ["iridescent","power_bezel_template#747474"],
 
     "Gemini/iconPowers_summonsOfPain": ["iridescent","power_bezel_template#007BAF"],
 
@@ -2728,19 +2728,19 @@
 
     "Haiti/iconPowers_yamaokasHaunting": ["iridescent","power_bezel_template#8FFFF0"],
 
-    "Icecream/iconPowers_AimEnragedMode_K39": ["iridescent"],
-    "Icecream/iconPowers_AimKaguneLeap_K39": ["iridescent"],
-    "Icecream/iconPowers_CancelKaguneLeap_K39": ["iridescent"],
-    "Icecream/iconPowers_FireEnragedMode_K39": ["iridescent"],
-    "Icecream/iconPowers_FireKaguneLeap_K39": ["iridescent"],
+    "Icecream/iconPowers_AimEnragedMode_K39": ["iridescent","power_bezel_template#8D2525"],
+    "Icecream/iconPowers_AimKaguneLeap_K39": ["iridescent","power_bezel_template#923A3A"],
+    "Icecream/iconPowers_CancelKaguneLeap_K39": ["iridescent","power_bezel_template#491E1E"],
+    "Icecream/iconPowers_FireEnragedMode_K39": ["iridescent","power_bezel_template#FF0000"],
+    "Icecream/iconPowers_FireKaguneLeap_K39": ["iridescent","power_bezel_template#FF0000"],
 
     "iconPowers_bell": ["iridescent","power_bezel_template#E4C498"],
 
     "iconPowers_breath": ["iridescent","power_bezel_template#FF7B00"],
 
-    "iconPowers_chainsaw": ["iridescent","power_bezel_template#657579"],
+    "iconPowers_chainsaw": ["iridescent","power_bezel_template#65848C"],
 
-    "iconPowers_chainsawCharge": ["iridescent","power_bezel_template#72B2C4"],
+    "iconPowers_chainsawCharge": ["iridescent","power_bezel_template#67CBE7"],
 
     "iconPowers_trap": ["iridescent","power_bezel_template#69492C"],
 
@@ -2769,9 +2769,9 @@
 
     "Orion/iconPowers_virulentBound": ["iridescent","power_bezel_template#38554C"],
 
-    "Poutine/T_UI_iconPowers_EnterUpsideDown": ["blood_moon","power_bezel"],
-    "Poutine/T_UI_iconPowers_FocusAttack": ["blood_moon","power_bezel"],
-    "Poutine/T_UI_iconPowers_GroundAttack": ["blood_moon","power_bezel"],
+    "Poutine/T_UI_iconPowers_EnterUpsideDown": ["blood_moon","power_bezel_template#FF5900"],
+    "Poutine/T_UI_iconPowers_FocusAttack": ["blood_moon","power_bezel_template#FF0000"],
+    "Poutine/T_UI_iconPowers_GroundAttack": ["blood_moon","power_bezel_template#FF0000"],
 
     "Qatar/iconPowers_ofTheAbyss": ["blood_moon","power_bezel_template#953939"],
 
