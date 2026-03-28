@@ -436,26 +436,30 @@
     "Anniversary/iconsFavors_8thAnniversary": ["anniversary"],
     "Anniversary/T_UI_iconsFavors_9thAnniversary": ["anniversary"],
 
-    "Cannibal/iconFavors_boneSplinter": ["iridescent"],
+    "Cannibal/iconFavors_boneSplinter": ["deprecated"],
 
-    "DLC2/iconFavors_strodeRealtyKey": ["none"],
+    "DLC2/iconFavors_blackSplinter": ["deprecated"],
+    "DLC2/iconFavors_strodeRealtyKey": ["map/lampkin_lane"],
 
-    "DLC3/iconFavors_granmasCookbook": ["none"],
+    "DLC3/iconFavors_granmasCookbook": ["map/backwater_swamp"],
+    "DLC3/iconFavors_muddySplinter": ["deprecated"],
 
-    "DLC4/iconFavors_shatteredGlasses": ["none"],
+    "DLC4/iconFavors_shatteredGlasses": ["map/lerys_memorial_institute"],
+    "DLC4/iconFavors_shockSplinter": ["deprecated"],
 
-    "DLC5/iconFavors_theLastMask": ["none"],
+    "DLC5/iconFavors_theLastMask": ["map/temple_of_purgation"],
 
-    "Eclipse/iconsFavors_RPDBadge": ["none"],
+    "Eclipse/iconsFavors_RPDBadge": ["map/raccooncity_policestation"],
 
-    "England/iconFavors_thePiedPiper": ["none"],
+    "England/iconFavors_smokingSplinter": ["deprecated"],
+    "England/iconFavors_thePiedPiper": ["map/badham_preschool"],
 
-    "Finland/iconFavors_glassSplinter": ["very_rare"],
-    "Finland/iconFavors_jigsawPiece": ["none"],
+    "Finland/iconFavors_glassSplinter": ["deprecated"],
+    "Finland/iconFavors_jigsawPiece": ["map/gideon_meat_plant"],
 
     "Gelato/iconsFavors_Winter": ["event"],
 
-    "Haiti/iconFavors_yamaokasCrest": ["none"],
+    "Haiti/iconFavors_yamaokasCrest": ["map/yamaoka_estate"],
 
     "Halloween/iconFavors_pustulaPetals": ["halloween"],
 
@@ -471,7 +475,7 @@
 
     "iconFavors_ardentTanagerWreath": ["rare"],
 
-    "iconFavors_azarovsKey": ["none"],
+    "iconFavors_azarovsKey": ["map/autohaven_wreckers_gas_heaven"],
 
     "iconFavors_blackSaltStatuette": ["rare"],
 
@@ -481,7 +485,7 @@
 
     "iconFavors_chalkPouch": ["common"],
 
-    "iconFavors_charredWeddingPhotograph": ["none"],
+    "iconFavors_charredWeddingPhotograph": ["map/crotus_prenn_asylum"],
 
     "iconFavors_clearReagent": ["common"],
 
@@ -523,7 +527,7 @@
 
     "iconFavors_hazyReagent": ["uncommon"],
 
-    "iconFavors_heartLocket": ["none"],
+    "iconFavors_heartLocket": ["map/coldwind_farm_rancidabattoir"],
 
     "iconFavors_hollowShell": ["uncommon"],
 
@@ -531,7 +535,7 @@
 
     "iconFavors_jarOfSaltyLips": ["very_rare"],
 
-    "iconFavors_macmilliansPhalanxBone": ["none"],
+    "iconFavors_macmilliansPhalanxBone": ["map/shelter_woods"],
 
     "iconFavors_moldyOak": ["uncommon"],
 
@@ -587,33 +591,33 @@
 
     "iconFavors_wardWhite": ["very_rare"],
 
-    "Ion/iconFavors_crowsEye": ["none"],
+    "Ion/iconFavors_crowsEye": ["map/forsaken_boneyard"],
 
-    "Kenya/iconFavors_damagedPhoto": ["none"],
+    "Kenya/iconFavors_damagedPhoto": ["map/ormond_resort"],
 
     "Ketchup/T_UI_iconsFavors_shroudOfVanishing": ["uncommon"],
 
     "LunarNewYear/iconFavors_redMoneyPacket": ["event"],
 
-    "Meteor/iconFavors_IchorousLoam": ["none"],
+    "Meteor/iconFavors_IchorousLoam": ["map/fnaf_pizzeria"],
 
-    "Qatar/iconFavors_hawkinsNationalLaboratoryID": ["none"],
+    "Qatar/iconFavors_hawkinsNationalLaboratoryID": ["map/underground_complex"],
 
-    "Quantum/iconFavors_BeefTallowMixture": ["none"],
+    "Quantum/iconFavors_BeefTallowMixture": ["map/shattered_square"],
 
-    "Quiche/T_UI_iconsFavors_vipWristband": ["none"],
+    "Quiche/T_UI_iconsFavors_vipWristband": ["map/trickster_delusion"],
 
     "Spring/iconFavors_bloodshotEye": ["blood_moon"],
 
     "Summer/iconFavors_bbqInvitation": ["event"],
 
-    "Ukraine/iconFavors_ShatteredBottle": ["none"],
+    "Ukraine/iconFavors_ShatteredBottle": ["map/grave_of_glenvale"],
 
-    "Umbra/iconFavors_alienFlora": ["none"],
+    "Umbra/iconFavors_alienFlora": ["map/toba_landing"],
 
-    "Wales/iconFavors_marysLetter": ["none"],
+    "Wales/iconFavors_marysLetter": ["map/midwich_elementary_school_0"],
 
-    "Wormhole/iconFavors_airlockDoors": ["none"],
+    "Wormhole/iconFavors_airlockDoors": ["map/nostromo_wreckage"],
 
     "Yemen/iconFavors_annotatedBlueprint": ["common"],
     "Yemen/iconFavors_bloodiedBlueprint": ["common"],
