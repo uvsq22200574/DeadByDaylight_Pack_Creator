@@ -248,13 +248,13 @@
     "Orion/S32_AdaWong_Portrait": ["none"],
     "Orion/S33_RebeccaChambers_Portrait": ["none"],
 
-    "Poutine/T_UI_K42_TheFirst_Portrait": [""],
-    "Poutine/T_UI_S50_DustinHenderson_Portrait": [""],
-    "Poutine/T_UI_S51_Eleven_Portrait": [""],
+    "Poutine/T_UI_K42_TheFirst_Portrait": ["none"],
+    "Poutine/T_UI_S50_DustinHenderson_Portrait": ["none"],
+    "Poutine/T_UI_S51_Eleven_Portrait": ["none"],
 
     "Qatar/K17_TheDemogorgon_Portrait": ["none"],
     "Qatar/S18_SteveHarrington_Portrait": ["none"],
-    "Qatar/T_UI_S19_NancyWheeler_Portrait": [""],
+    "Qatar/T_UI_S19_NancyWheeler_Portrait": ["none"],
 
     "Quantum/K30_TheKnight_Portrait": ["none"],
     "Quantum/S34_VittorioToscano_Portrait": ["none"],
@@ -439,14 +439,22 @@
     "Cannibal/iconFavors_boneSplinter": ["deprecated"],
 
     "DLC2/iconFavors_blackSplinter": ["deprecated"],
+    "DLC2/iconFavors_decrepitClapboard": ["deprecated"],
+    "DLC2/iconFavors_harvestFestivalLeaflet": ["deprecated"],
     "DLC2/iconFavors_strodeRealtyKey": ["map/lampkin_lane"],
 
+    "DLC3/iconFavors_fumingCordage": ["deprecated"],
+    "DLC3/iconFavors_fumingWelcomeSign": ["deprecated"],
     "DLC3/iconFavors_granmasCookbook": ["map/backwater_swamp"],
     "DLC3/iconFavors_muddySplinter": ["deprecated"],
 
+    "DLC4/iconFavors_emergencyCertificate": ["deprecated"],
+    "DLC4/iconFavors_psychiatricAssessmentReport": ["deprecated"],
     "DLC4/iconFavors_shatteredGlasses": ["map/lerys_memorial_institute"],
     "DLC4/iconFavors_shockSplinter": ["deprecated"],
 
+    "DLC5/iconFavors_childrensBook": ["deprecated"],
+    "DLC5/iconFavors_paintedRiverRock": ["deprecated"],
     "DLC5/iconFavors_theLastMask": ["map/temple_of_purgation"],
 
     "Eclipse/iconsFavors_RPDBadge": ["map/raccooncity_policestation"],
@@ -483,6 +491,10 @@
 
     "iconFavors_boundEnvelope": ["rare"],
 
+    "iconFavors_cattleTag28": ["deprecated"],
+
+    "iconFavors_cattleTag81": ["deprecated"],
+
     "iconFavors_chalkPouch": ["common"],
 
     "iconFavors_charredWeddingPhotograph": ["map/crotus_prenn_asylum"],
@@ -491,7 +503,7 @@
 
     "iconFavors_creamChalkPouch": ["uncommon"],
 
-    "iconFavors_crecentMoonBouquet": [""],
+    "iconFavors_crecentMoonBouquet": ["deprecated"],
 
     "iconFavors_crispleafAmaranthSachet": ["common"],
 
@@ -523,7 +535,9 @@
 
     "iconFavors_freshSweetWilliam": ["uncommon"],
 
-    "iconFavors_fullMoonBouquet": [""],
+    "iconFavors_fullMoonBouquet": ["deprecated"],
+
+    "iconFavors_graduationCap": ["deprecated"],
 
     "iconFavors_hazyReagent": ["uncommon"],
 
@@ -534,6 +548,10 @@
     "iconFavors_ivoryChalkPouch": ["rare"],
 
     "iconFavors_jarOfSaltyLips": ["very_rare"],
+
+    "iconFavors_lunacyTicket": ["deprecated"],
+
+    "iconFavors_macmillianLedgerPage": ["deprecated"],
 
     "iconFavors_macmilliansPhalanxBone": ["map/shelter_woods"],
 
@@ -547,15 +565,21 @@
 
     "iconFavors_murkyReagent": ["very_rare"],
 
-    "iconFavors_newMoonBouquet": [""],
+    "iconFavors_newMoonBouquet": ["deprecated"],
+
+    "iconFavors_pElliottLunacyTicket": ["deprecated"],
 
     "iconFavors_petrifiedOak": ["very_rare"],
+
+    "iconFavors_plateShredded": ["deprecated"],
+
+    "iconFavors_plateVirginia": ["deprecated"],
 
     "iconFavors_primroseBlossomSachet": ["common"],
 
     "iconFavors_putridOak": ["very_rare"],
 
-    "iconFavors_quarterMoonBouquet": [""],
+    "iconFavors_quarterMoonBouquet": ["deprecated"],
 
     "iconFavors_ravenWreath": ["common"],
 
@@ -576,6 +600,8 @@
     "iconFavors_shroudOfSeparation": ["very_rare"],
 
     "iconFavors_shroudOfUnion": ["uncommon"],
+
+    "iconFavors_signedLedgerPage": ["deprecated"],
 
     "iconFavors_spottedOwlWreath": ["common"],
 
@@ -611,6 +637,7 @@
 
     "Summer/iconFavors_bbqInvitation": ["event"],
 
+    "Ukraine/iconFavors_dustyNoose": ["deprecated"],
     "Ukraine/iconFavors_ShatteredBottle": ["map/grave_of_glenvale"],
 
     "Umbra/iconFavors_alienFlora": ["map/toba_landing"],
@@ -716,7 +743,7 @@
 
     "iconHelp_entity": ["none"],
 
-    "iconHelp_exitGates": [""],
+    "iconHelp_exitGates": ["none"],
 
     "iconHelp_fear": ["none"],
 
@@ -891,13 +918,13 @@
     "Meteor/iconHelpLoading_ReignOfDarkness": ["none"],
     "Meteor/T_UI_iconHelpLoading_K28": ["none"],
 
-    "Omelet/T_UI_iconHelpLoading_calamariVial": [""],
+    "Omelet/T_UI_iconHelpLoading_calamariVial": ["none"],
 
     "Orion/iconHelpLoading_virulentBound": ["none"],
     "Orion/T_UI_iconHelpLoading_K29": ["none"],
 
-    "Poutine/T_UI_iconHelpLoading_beacon": [""],
-    "Poutine/T_UI_iconHelpLoading_K42": [""],
+    "Poutine/T_UI_iconHelpLoading_beacon": ["none"],
+    "Poutine/T_UI_iconHelpLoading_K42": ["none"],
 
     "Qatar/iconHelpLoading_demogorgon": ["none"],
     "Qatar/T_UI_iconHelpLoading_K17": ["none"],
@@ -2209,7 +2236,7 @@
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_VecnaEye": ["none"],
     "MagicItems/Churros/T_UI_hud_umg_survivorMagicItems_VecnaHand": ["none"],
 
-    "Spring/T_UI_iconItems_LimitedJerryCan": ["limited_bezel_template#e1c287"],
+    "Spring/T_UI_iconItems_LimitedJerryCan": ["template#6E0000","limited_bezel_template#e1c287"],
 
     "T_UI_iconItems_apprenticesFogVial": ["common"],
 
@@ -2568,14 +2595,14 @@
     "Qatar/iconPerks_Camaraderie": ["iridescent","entity_claws"],
     "Qatar/iconPerks_CruelConfinement": ["very_rare"],
     "Qatar/iconPerks_Fixated": ["very_rare"],
-    "Qatar/iconPerks_guardian": [""],
+    "Qatar/iconPerks_guardian": ["iridescent","entity_claws"],
     "Qatar/iconPerks_innerStrength": ["very_rare"],
     "Qatar/iconPerks_MindBreaker": ["iridescent","entity_claws"],
-    "Qatar/iconPerks_pushThroughIt": [""],
+    "Qatar/iconPerks_pushThroughIt": ["very_rare"],
     "Qatar/iconPerks_secondWind": ["very_rare"],
-    "Qatar/iconPerks_situationalAwareness": [""],
+    "Qatar/iconPerks_situationalAwareness": ["uncommon"],
     "Qatar/iconPerks_Surge": ["very_rare"],
-    "Qatar/iconPerks_survivalInstincts": [""],
+    "Qatar/iconPerks_survivalInstincts": ["very_rare"],
 
     "Quantum/iconPerks_Fogwise": ["very_rare"],
     "Quantum/iconPerks_HexFaceTheDarkness": ["iridescent","entity_claws"],
