@@ -275,6 +275,8 @@
     "Saturn/S35_ThalitaLyra_Portrait": ["none"],
     "Saturn/S36_RenatoLyra_Portrait": ["none"],
 
+    "Sushi/T_UI_K43_TheSlasher_Portrait": ["none"],
+
     "Sweden/K18_TheOni_Portrait": ["none"],
     "Sweden/S20_YuiKimura_Portrait": ["none"],
 
@@ -1968,6 +1970,27 @@
     "Saturn/iconAddon_UltrasonicTrapSpeaker": ["common"],
     "Saturn/iconAddon_VitalTargetingProcessor": ["rare"],
 
+    "Sushi/T_UI_iconAddon_BentWheel": ["common"],
+    "Sushi/T_UI_iconAddon_BloodyMagazine": ["very_rare"],
+    "Sushi/T_UI_iconAddon_BloodySmile": ["uncommon"],
+    "Sushi/T_UI_iconAddon_BurntFuse": ["very_rare"],
+    "Sushi/T_UI_iconAddon_CoronersCoffee": ["uncommon"],
+    "Sushi/T_UI_iconAddon_DeputysBadge": ["very_rare"],
+    "Sushi/T_UI_iconAddon_DirtyMoney": ["iridescent"],
+    "Sushi/T_UI_iconAddon_EyeGoop": ["rare"],
+    "Sushi/T_UI_iconAddon_GardenClaw": ["common"],
+    "Sushi/T_UI_iconAddon_ImprintedAluminum": ["rare"],
+    "Sushi/T_UI_iconAddon_IridescentBoatMotor": ["iridescent"],
+    "Sushi/T_UI_iconAddon_KnittingNeedle": ["common"],
+    "Sushi/T_UI_iconAddon_MirrorShards": ["rare"],
+    "Sushi/T_UI_iconAddon_MissingCorkscrew": ["very_rare"],
+    "Sushi/T_UI_iconAddon_OrderlysShoe": ["common"],
+    "Sushi/T_UI_iconAddon_PartyNoisemaker": ["uncommon"],
+    "Sushi/T_UI_iconAddon_SaunaRock": ["rare"],
+    "Sushi/T_UI_iconAddon_SleepingBag": ["uncommon"],
+    "Sushi/T_UI_iconAddon_ToxicWaste": ["uncommon"],
+    "Sushi/T_UI_iconAddon_TwoNails": ["rare"],
+
     "Sweden/iconAddon_akitosCrutch": ["very_rare"],
     "Sweden/iconAddon_blackenedToenail": ["common"],
     "Sweden/iconAddon_bloodySash": ["uncommon"],
@@ -2625,6 +2648,13 @@
     "Saturn/iconPerks_TeamworkPowerOfTwo": ["uncommon"],
     "Saturn/iconPerks_Thwack": ["very_rare"],
 
+    "Sushi/T_UI_iconsPerks_CrossExamination": ["uncommon"],
+    "Sushi/T_UI_iconsPerks_LendaHand": ["iridescent","entity_claws"],
+    "Sushi/T_UI_iconsPerks_Rampage": ["very_rare"],
+    "Sushi/T_UI_iconsPerks_ScaredToDeath": ["uncommon"],
+    "Sushi/T_UI_iconsPerks_SilentShadow": ["uncommon"],
+    "Sushi/T_UI_iconsPerks_WideOpenThrottle": ["very_rare"],
+
     "Sweden/iconPerks_AnyMeansNecessary": ["iridescent","entity_claws"],
     "Sweden/iconPerks_BloodEcho": ["very_rare"],
     "Sweden/iconPerks_Breakout": ["very_rare"],
@@ -2812,6 +2842,13 @@
 
     "Saturn/iconPowers_drones": ["iridescent","power_bezel_template#FF9249"],
     "Saturn/iconPowers_track": ["iridescent","power_bezel_template#F9FF43"],
+
+    "Sushi/T_UI_iconPowers_DramaticEntrance": ["iridescent","power_bezel_template#56A8FF"],
+    "Sushi/T_UI_iconPowers_FlipDirection": ["iridescent","power_bezel_template#D5FF49"],
+    "Sushi/T_UI_iconPowers_FlipDirectionBack": ["iridescent","power_bezel_template#D5FF49"],
+    "Sushi/T_UI_iconPowers_ProjectileAim": ["iridescent","power_bezel_template#FF0000"],
+    "Sushi/T_UI_iconPowers_ProjectileThrow": ["iridescent","power_bezel_template#FF9249"],
+    "Sushi/T_UI_iconPowers_TeleportExit": ["iridescent","power_bezel_template#85C0FF"],
 
     "Sweden/iconPowers_yamaokasWrath": ["iridescent","power_bezel_template#CD6969"],
     "Sweden/iconPowers_yamaokasWrath_demon": ["iridescent","power_bezel_template#FF2222"],
