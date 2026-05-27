@@ -1665,7 +1665,7 @@
 
     "iconAddon_vegetableOil": ["common"],
 
-    "iconAddon_waxBrick": ["rare"],
+    "iconAddon_waxBrick": ["uncommon"],
 
     "iconAddon_weavedRing": ["very_rare"],
 
@@ -1766,7 +1766,7 @@
     "Ketchup/T_UI_iconAddon_RestaurantMenu": ["common"],
     "Ketchup/T_UI_iconAddon_RippedCurtain": ["uncommon"],
     "Ketchup/T_UI_iconAddon_RottenPizza": ["common"],
-    "Ketchup/T_UI_iconAddon_SecurityGuardsBadge": ["common"],
+    "Ketchup/T_UI_iconAddon_SecurityGuardsBadge": ["uncommon"],
     "Ketchup/T_UI_iconAddon_Streamers": ["uncommon"],
 
     "Lasagna/T_UI_iconAddon_BatteredTape": ["rare"],
@@ -2587,6 +2587,19 @@
     "Meteor/iconPerks_ResidualManifest": ["very_rare"],
     "Meteor/iconPerks_SepticTouch": ["uncommon"],
 
+    "NoLicense/iconPerks_bloodWarden": ["iridescent","entity_claws"],
+    "NoLicense/iconPerks_decisiveStrike": ["very_rare"],
+    "NoLicense/iconPerks_dyingLight": ["very_rare"],
+    "NoLicense/iconPerks_fireUp": ["very_rare"],
+    "NoLicense/iconPerks_objectOfObsession": ["very_rare"],
+    "NoLicense/iconPerks_pharmacy": ["uncommon"],
+    "NoLicense/iconPerks_playWithYourFood": ["very_rare"],
+    "NoLicense/iconPerks_rememberMe": ["iridescent","entity_claws"],
+    "NoLicense/iconPerks_saveTheBestForLast": ["iridescent","entity_claws"],
+    "NoLicense/iconPerks_soleSurvivor": ["uncommon"],
+    "NoLicense/iconPerks_vigil": ["iridescent","entity_claws"],
+    "NoLicense/iconPerks_wakeUp": ["very_rare"],
+
     "Oman/iconPerks_FurtiveChase": ["very_rare"],
     "Oman/iconPerks_ImAllEars": ["very_rare"],
     "Oman/iconPerks_ThrillingTremors": ["uncommon"],
@@ -2842,6 +2855,9 @@
 
     "Saturn/iconPowers_drones": ["iridescent","power_bezel_template#FF9249"],
     "Saturn/iconPowers_track": ["iridescent","power_bezel_template#F9FF43"],
+    "Saturn/T_UI_iconPowers_drones": ["iridescent","power_bezel_template#FF9249"],
+    "Saturn/T_UI_iconPowers_recallDrones": ["iridescent","power_bezel_template#FF9249"],
+    "Saturn/T_UI_iconPowers_reverseDrones": ["iridescent","power_bezel_template#FF9249"],
 
     "Sushi/T_UI_iconPowers_DramaticEntrance": ["iridescent","power_bezel_template#56A8FF"],
     "Sushi/T_UI_iconPowers_FlipDirection": ["iridescent","power_bezel_template#D5FF49"],
