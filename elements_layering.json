@@ -288,6 +288,9 @@
 
     "Venus/S38_NicolasCage_Portrait": ["none"],
 
+    "Waffle/T_UI_K45_TheTerrifier_Portrait": ["none"],
+    "Waffle/T_UI_S55_SiennaShaw_Portrait": ["none"],
+
     "Wales/K20_TheExecutioner_Portrait": ["none"],
     "Wales/S22_CherylMason_Portrait": ["none"],
 
@@ -643,6 +646,8 @@
     "Ukraine/iconFavors_ShatteredBottle": ["map/grave_of_glenvale"],
 
     "Umbra/iconFavors_alienFlora": ["map/toba_landing"],
+
+    "Waffle/T_UI_iconsFavors_HartshorneRewardsTote": ["map/hartshorne_mall"],
 
     "Wales/iconFavors_marysLetter": ["map/midwich_elementary_school_0"],
 
@@ -2012,6 +2017,27 @@
     "Sweden/iconAddon_woodenOniMask": ["rare"],
     "Sweden/iconAddon_yamaokaSashimono": ["rare"],
 
+    "Udon/T_UI_iconAddon_AurorasTelereceptor": ["uncommon"],
+    "Udon/T_UI_iconAddon_BlindfoldOfTheDevoted": ["rare"],
+    "Udon/T_UI_iconAddon_ChainsOfTheHeretic": ["very_rare"],
+    "Udon/T_UI_iconAddon_ConfessorsWarHorn": ["uncommon"],
+    "Udon/T_UI_iconAddon_CrownOfTheDestroyer": ["very_rare"],
+    "Udon/T_UI_iconAddon_ElectricTorch": ["rare"],
+    "Udon/T_UI_iconAddon_EyesOfGerhardt": ["very_rare"],
+    "Udon/T_UI_iconAddon_HereticsMark": ["common"],
+    "Udon/T_UI_iconAddon_HolyWingedIcon": ["rare"],
+    "Udon/T_UI_iconAddon_ImprovisedDetonators": ["very_rare"],
+    "Udon/T_UI_iconAddon_KoenradsGauntlet": ["common"],
+    "Udon/T_UI_iconAddon_MagnetizedManacles": ["uncommon"],
+    "Udon/T_UI_iconAddon_MarkOfTheAdherent": ["uncommon"],
+    "Udon/T_UI_iconAddon_MirrorOfTheCreators": ["iridescent"],
+    "Udon/T_UI_iconAddon_ObsidianFeather": ["iridescent"],
+    "Udon/T_UI_iconAddon_OrderOfInquisition": ["rare"],
+    "Udon/T_UI_iconAddon_PrayerKneeler": ["common"],
+    "Udon/T_UI_iconAddon_SearchersSkull": ["common"],
+    "Udon/T_UI_iconAddon_SuperheatedGlass": ["rare"],
+    "Udon/T_UI_iconAddon_UndyingFlame": ["uncommon"],
+
     "Ukraine/iconAddon_barbedWire": ["very_rare"],
     "Ukraine/iconAddon_bayshoresCigar": ["very_rare"],
     "Ukraine/iconAddon_bayshoresGoldTooth": ["rare"],
@@ -2053,6 +2079,27 @@
     "Umbra/iconAddon_somaFamilyPhoto": ["very_rare"],
     "Umbra/iconAddon_spentOxygenTank": ["rare"],
     "Umbra/iconAddon_ultrasonicSensor": ["uncommon"],
+
+    "Waffle/T_UI_iconAddon_AlliesScalp": ["common"],
+    "Waffle/T_UI_iconAddon_ArtCrispies": ["very_rare"],
+    "Waffle/T_UI_iconAddon_BlackenedHeart": ["common"],
+    "Waffle/T_UI_iconAddon_BloodstainedBullet": ["uncommon"],
+    "Waffle/T_UI_iconAddon_BottleOfBleach": ["common"],
+    "Waffle/T_UI_iconAddon_BrooksPustule": ["uncommon"],
+    "Waffle/T_UI_iconAddon_BurntWings": ["uncommon"],
+    "Waffle/T_UI_iconAddon_CandyHeadBowl": ["rare"],
+    "Waffle/T_UI_iconAddon_DeadOpossum": ["rare"],
+    "Waffle/T_UI_iconAddon_DuctTape": ["iridescent"],
+    "Waffle/T_UI_iconAddon_Emily": ["rare"],
+    "Waffle/T_UI_iconAddon_ExplosiveGift": ["very_rare"],
+    "Waffle/T_UI_iconAddon_JonathansSkull": ["very_rare"],
+    "Waffle/T_UI_iconAddon_MikesPhone": ["common"],
+    "Waffle/T_UI_iconAddon_ShinyTricycle": ["uncommon"],
+    "Waffle/T_UI_iconAddon_SiennasFlesh": ["uncommon"],
+    "Waffle/T_UI_iconAddon_TheNinthCircle": ["iridescent"],
+    "Waffle/T_UI_iconAddon_ThorntonSalt": ["rare"],
+    "Waffle/T_UI_iconAddon_VictoriasEye": ["rare"],
+    "Waffle/T_UI_iconAddon_WackyJacks": ["very_rare"],
 
     "Wales/iconAddon_blackStrap": ["common"],
     "Wales/iconAddon_burningManPainting": ["rare"],
@@ -2675,6 +2722,13 @@
     "Sweden/iconPerks_Nemesis": ["very_rare"],
     "Sweden/iconPerks_ZanshinTactics": ["uncommon"],
 
+    "Udon/T_UI_iconsPerks_BoonSteadfast": ["uncommon"],
+    "Udon/T_UI_iconsPerks_CelestialWitness": ["iridescent","entity_claws"],
+    "Udon/T_UI_iconsPerks_FruitsOfYourLabor": ["very_rare"],
+    "Udon/T_UI_iconsPerks_HexUnderYourThumb": ["very_rare"],
+    "Udon/T_UI_iconsPerks_LayWaste": ["uncommon"],
+    "Udon/T_UI_iconsPerks_SalvationsCry": ["uncommon"],
+
     "Ukraine/iconPerks_DeadManSwitch": ["iridescent","entity_claws"],
     "Ukraine/iconPerks_ForThePeople": ["iridescent","entity_claws"],
     "Ukraine/iconPerks_GearHead": ["very_rare"],
@@ -2692,6 +2746,23 @@
     "Venus/iconPerks_Dramaturgy": ["iridescent","entity_claws"],
     "Venus/iconPerks_PlotTwist": ["very_rare"],
     "Venus/iconPerks_ScenePartner": ["uncommon"],
+
+    "Waffle/iconPerks_GainingSteam": ["very_rare"],
+    "Waffle/iconPerks_HExEyeForAnEye": ["very_rare"],
+    "Waffle/iconPerks_OneTrackMind": ["iridescent","entity_claws"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver_FirstAid": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver_Flashlight": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver_Key": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver_Map": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver_Toolbox": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_BestGiftEver_Vial": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_FunnyBusiness": ["iridescent","entity_claws"],
+    "Waffle/T_UI_iconsPerks_KillingSpree": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_KillSpree": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_Laughingstock": ["very_rare"],
+    "Waffle/T_UI_iconsPerks_SharedTrauma": ["iridescent","entity_claws"],
+    "Waffle/T_UI_iconsPerks_ValkyriesRage": ["very_rare"],
 
     "Wales/iconPerks_BloodPact": ["very_rare"],
     "Wales/iconPerks_Deathbound": ["uncommon"],
@@ -2869,10 +2940,14 @@
     "Sweden/iconPowers_yamaokasWrath": ["iridescent","power_bezel_template#CD6969"],
     "Sweden/iconPowers_yamaokasWrath_demon": ["iridescent","power_bezel_template#FF2222"],
 
+    "Udon/T_UI_iconPowers_ChargeRay": ["iridescent","power_bezel_template#0CF0F0"],
+
     "Ukraine/iconPowers_UK": ["iridescent","power_bezel_template#622500"],
     "Ukraine/iconPowers_UK_chainBreak": ["iridescent","power_bezel_template#E35700"],
 
     "Umbra/iconPowers_quantumInstantiation": ["iridescent","power_bezel_template#00E353"],
+
+    "Waffle/T_UI_iconPowers_GarbageBag": ["iridescent","power_bezel_template#00692A"],
 
     "Wales/iconPowers_Wales_ritesOfJudgement": ["iridescent","power_bezel_template#B33114"],
 
